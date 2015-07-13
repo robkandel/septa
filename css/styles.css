@@ -1,6 +1,6 @@
 body {
-	background-color:#fff;
-	font-family: 'Noto Sans', sans-serif;
+    background-color:#fff;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 html {
@@ -49,12 +49,12 @@ footer,header,hgroup,menu,nav,section {
 }
 
 .absoluteFull {
-	position: absolute;
-	width: 100%;
-	height:100%;
-	top: 0;
-	left: 0;
-	overflow:hidden;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    overflow:hidden;
 }
 
 header {
@@ -78,7 +78,7 @@ hgroup {
 }
 
 .menuWrapper {
-	border-left: 1px solid #ddd;
+    border-left: 1px solid #ddd;
     height: calc(100% - 1px);
     right: 0;
     margin-right: -0.714286em;
@@ -88,28 +88,57 @@ hgroup {
 }
 
 .menuIcon {
-	background-color:#006697;
+    background-color:#006697;
 }
 
-.menuIcon .fa-bars {
-	color:#fff;
+.menuIcon .fa-search {
+    color:#fff;
+    font-size: 1.4em;
+    margin-top: -2px;
 }
 
 .menuWrapper:hover .menuIcon {
-	background-color:#337ab7;
+    background-color:#337ab7;
 }
 
 .menuWrapper:hover .menuIcon .fa-bars{
-	color:#ccc;
+    color:#ccc;
 }
 
 .logo {
-	font-size: 1.28571428571429em;
-	font-weight: 700;
+    font-size: 1.28571428571429em;
+    font-weight: 700;
+}
+
+.logoText {
+    width: calc(100% - 2.228574em);
+    text-align: left;
+}
+
+.socialWrapper {
+    position: absolute;
+    top: 0;
+    right: 2.228574em;
+    z-index: 1;
+}
+
+.socialWrapper a, .socialWrapper a:hover, .socialWrapper a:active, .socialWrapper a:visited {
+    color:#fff;
+}
+
+.socialWrapper span {
+    position: relative;
+    text-align: center;
+    padding: 0 0.35714285714286em;
 }
 
 .logo .fa {
-	margin-right: 0.71428571428571em;
+    margin-right: 0.71428571428571em;
+}
+
+.socialWrapper span .fa {
+    margin-right: 0;
+    font-size: 1.2em;
 }
 
 .footerWrapper {
@@ -133,13 +162,17 @@ hgroup {
     font-weight: 700;
 }
 
+.footer .fa-github-square{
+    font-size: 1.2em;
+}
+
 .layout {
-	height: calc(100% - 5.14285714285714em);
-	top: 3.14285714285714em;
+    height: calc(100% - 5.14285714285714em);
+    top: 3.14285714285714em;
 }
 
 .theMap {
-	height: calc(100%);
+    height: calc(100%);
 }
 
 .preloaderWrapper, .searchWrapper {
@@ -317,59 +350,59 @@ hgroup {
 }
 
 .navWrapper {
-	position: absolute;
-	width: 20em;
-	height: calc(100% - 5.14285714285714em);
-	top: 3.14285714285714em;
-	left: -25em;
-	background-color:#337ab7;
-	box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
-	border-right: 1px solid #ddd;
+    position: absolute;
+    width: 20em;
+    height: calc(100% - 5.14285714285714em);
+    top: 3.14285714285714em;
+    left: -25em;
+    background-color:#337ab7;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #ddd;
 }
 
 .navWrapperActive {
-	left: 0;
+    left: 0;
 }
 
 .navWrapperInner{
-	position: relative;
-	margin: 0;
+    position: relative;
+    margin: 0;
 }
 
 .navButtonWrapper {
-	position: relative;
-	border-bottom: 1px solid #006697;
-	color:#fff;
+    position: relative;
+    border-bottom: 1px solid #006697;
+    color:#fff;
 }
 
 .navButtonWrapper:first-child {
-	border-top: 1px solid #006697;
+    border-top: 1px solid #006697;
 }
 
 .navButtonText {
-	font-weight: 300;
-	line-height: 2em;
-	padding: 0.71428571428572em 1.42857142857143em;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 0.71428571428572em 1.42857142857143em;
 }
 
 .navButtonIcon {
-	font-size: 2em;
+    font-size: 2em;
     margin-right: 0.5em;
 }
 
 .navButtonName {
-	position: relative;
+    position: relative;
     text-transform: uppercase;
     top: -0.3em;
     color:#fff;
 }
 
 .navButtonText:hover .navButtonName {
-	color:#ddd;
+    color:#ddd;
 }
 
 .navButtonArrow {
-	margin-left: 1em;
+    margin-left: 1em;
     position: relative;
     top: -0.3em
 }
@@ -524,6 +557,13 @@ hgroup {
 .theLogo {
     position: relative;
     z-index: 1;
+}
+
+@media screen and (min-width:481px) {
+    .logoText {
+        position: relative;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:769px) {

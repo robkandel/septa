@@ -273,7 +273,7 @@ var _septa = (function(){
 				_stops_layer = new L.LayerGroup();
                 _stops_layer.clearLayers();
 				for (i in _all_stops) {
-					var _circle = L.circle([_all_stops[i].lat, _all_stops[i].lng], 12w, {
+					var _circle = L.circle([_all_stops[i].lat, _all_stops[i].lng], 12, {
     					color: '#c9302c',
     					fillColor: '#d9534f',
     					fillOpacity: 0.85

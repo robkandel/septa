@@ -1,0 +1,1509 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:g="http://www.alfresco.org/alfresco/g">
+<head>
+<title>SEPTA | System Status</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=7;IE=9" http-equiv="X-UA-Compatible"/>
+<link href="/site/images/septawhite.png" rel="icon" type="image/png"/>
+<link href="/site/css/reset.css" media="all" rel="stylesheet"/>
+<link href="/site/css/main.css" media="all" rel="stylesheet"/>
+<link href="/site/css/menu_style.css" media="all" rel="stylesheet"/>
+<link href="/site/css/ui.all.css" rel="stylesheet" type="text/css"/>
+<link href="/site/css/ui.datepicker.css" rel="stylesheet" type="text/css"/>
+<link href="/site/css/ui.theme.css" rel="stylesheet" type="text/css"/>
+<link href="/site/css/print.css" media="print" rel="stylesheet"/>
+<script language="JavaScript" src="/site/js/datefinder.js"><xsl:comment></xsl:comment></script>
+<!--[if IE]>
+	<link rel="stylesheet" href="/site/css/ie.css" media="all" type="text/css">
+<![endif]-->
+<!--[if IE 6]>
+	<link rel="stylesheet" href="/site/css/ie6.css" media="all" type="text/css">
+<![endif]-->
+</head>
+<link href="/site/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</link></html>
+<body>
+<div class="clearfix" id="wrapper">
+<div id="septa_header">
+<h1>
+<a href="/index.html">
+<img alt="SEPTA" src="/site/images/logo.gif"/>
+</a>
+</h1>
+<p id="septa_callout">
+			Southeastern Pennsylvania Transportation Authority <span><strong>Serving</strong> Bucks, Chester, Delaware, Montgomery, and Philadelphia Counties</span>
+</p>
+<div id="septa_date">
+<!--<div class="time_container"></div>-->
+<form action="http://www.septa.org/search/index.html" id="searchbox_017501152079099958693:snybqfe4lsw">
+<input name="cx" type="hidden" value="017501152079099958693:snybqfe4lsw"/>
+<input name="cof" type="hidden" value="FORID:11"/>
+<input id="septa_header_search" name="q" type="text"/>
+<input alt="go" id="septa_header_search_image" name="header_search_image" src="/site/images/searchButton.gif" type="image"/>
+</form>
+<script language="JavaScript" src="http://www.google.com/coop/cse/brand?form=searchbox_017501152079099958693%3Asnybqfe4lsw"><xsl:comment></xsl:comment></script>
+</div>
+<div class="round_top_home" id="septa_top_navigation">
+<ul id="nav">
+<li class="nav_heading" id="getting_around"><a class="top_navlink" href="/around">Getting Around</a>
+<ul>
+<li><a href="/welcome">welcome</a></li>
+<li><a href="/service">service</a></li>
+<li><a href="/schedules">schedules</a></li>
+<li><a href="/fares">fares</a></li>
+<li><a href="/parking">parking</a></li>
+<li><a href="/maps">maps &amp; stations</a></li>
+<li><a href="/realtime/status/system-status.shtml">system status</a></li>
+<li class="last_sub"><a href="/connect">connecting services</a></li>
+</ul>
+</li>
+<li class="nav_heading" id="experience"><a class="top_navlink" href="/about">About</a>
+<ul>
+<li><a href="/access">accessibility</a></li>
+<li><a href="/safety">safety &amp; security</a></li>
+<li><a href="/sustain">sustainability</a></li>
+<li><a href="/construction">construction</a></li>
+<li><a href="/notice">Public Notices</a></li>
+<li><a href="/about/gm">General Manager</a></li>
+<li><a href="/about/board">Board Members</a></li>
+<li class="last_sub"><a href="/partners">partners</a></li>
+</ul>
+</li>
+<li class="nav_heading" id="customer_service"><a class="top_navlink" href="/cs">Customer Service</a>
+<ul>
+<li><a href="/cs/comment">Comment</a></li>
+<li><a href="/cs/contact">Contact Us</a></li>
+<li><a href="/cs/survey">Survey</a></li>
+<li><a href="/cs/directory">Directory</a></li>
+<li><a href="/cs/ask">Frequently Asked</a></li>
+<li><a href="/cs/etiquette">passenger etiquette</a></li>
+<li class="last_sub"><a href="/cs/connection">Customer Connection</a></li>
+</ul>
+</li>
+<li class="nav_heading" id="media"><a class="top_navlink" href="/media/about.html">Media</a>
+<ul>
+<li><a href="/media">Newsroom</a></li>
+<li><a href="/reports">Reports</a></li>
+<li><a href="/policy">Policies</a></li>
+<li class="last_sub"><a href="/developer">Developer</a></li>
+</ul>
+</li>
+<li class="nav_heading" id="careers"><a class="top_navlink" href="http://autohire.careershop.com/septajobs/">Careers</a></li>
+<li class="last"><a class="top_navlink" href="/business">Business</a>
+<ul>
+<li><a href="/business/procurement">Procurement</a></li>
+<li><a href="/business/dbe">DBE Program</a></li>
+<li><a href="/sales/advertise.html">Advertising</a></li>
+<li><a href="/sales/sell.html">Selling Fares</a></li>
+<li class="last_sub"><a href="/store">Transit Gift Store</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="homepage" id="septa_left_navigation">
+<h2><span>Choose</span> Your Service</h2>
+<ul class="clearfix" id="septa_choose_service">
+<li id="septa_rail">
+<div><img src="/site/images/regionalRailArrow.gif"/></div>
+<img alt="Regional Rail" class="septa_color_id" src="/site/images/rr_colorid.gif"/><a href="/service/rail">Regional Rail</a></li>
+<li id="septa_market_frankford_line">
+<div><img src="/site/images/MFLArrow.gif"/></div>
+<img alt="Market-Frankford Line" class="septa_color_id" src="/site/images/mfl_colorid.gif"/><a href="/service/mfl">Market-Frankford Line</a></li>
+<li id="septa_broad_street_line">
+<div><img src="/site/images/BSLArrow.gif"/></div>
+<img alt="Broad Street Line" class="septa_color_id" src="/site/images/bsl_colorid.gif"/><a href="/service/bsl">Broad Street Line</a></li>
+<li id="septa_trolleys">
+<div><img src="/site/images/trolleyArrow.gif"/></div>
+<img alt="Trolley Lines" class="septa_color_id" src="/site/images/trolley_colorid.gif"/><a href="/service/trolley">Trolley Lines</a></li>
+<li id="septa_norristown_line">
+<div><img src="/site/images/NHLArrow.gif"/></div>
+<img alt="Norristown High Speed Line" class="septa_color_id" src="/site/images/nhs_colorid.gif"/><a href="/service/highspeed">Norristown High Speed Line</a></li>
+<li id="septa_buses">
+<div><img src="/site/images/busesArrow.gif"/></div>
+<img alt="Buses" class="septa_color_id" src="/site/images/buses_colorid.gif"/><a href="/service/bus">Buses</a></li>
+<li class="last" id="cct_rail">
+<div><img src="/site/images/MFLArrow.gif"/></div>
+<img alt="CCT Connect" class="septa_color_id" src="/site/images/cct_colorid.gif"/><a href="/service/cct">CCT Connect</a></li>
+</ul>
+<h2 class="septa_title_float"><span>Trip</span> Planner</h2>
+<p id="viewmap"><a href="/maps/system">System Map</a></p>
+<div class="septa_planners_container">
+<form id="septa_location_destination_planner" method="GET" name="simplePlanner">
+<div class="septa_destination_container"> <img alt="beginning location" src="/site/images/fromArrow.gif"/>
+<input id="from" name="from" type="text" value="From"/>
+</div>
+<div class="septa_destination_container"> <img alt="final destination" src="/site/images/toArrow.gif"/>
+<input id="to" name="to" type="text" value="To"/>
+</div>
+<input class="calendar_img" id="datepicker" name="date" onblur="checkWeekday('0','0','')" type="text"/>
+<input id="time" name="time" title="" type="text" value="04:30 PM"/>
+<div class="gray_container round_all">
+<input class="checkboxes" id="timesel" name="timesel" type="radio" value="depart"/>
+<label for="timesel" id="departing">Departing</label>
+<input class="checkboxes" id="timesel" name="timesel" type="radio" value="arrive"/>
+<label for="timesel" id="arriving">Arriving</label>
+</div>
+<p class="septa_trip_planner_apps">
+<input class="planner_button" onclick="return buildURL();" type="button" value="Google Transit"/>
+<span>or</span>
+<input class="planner_button" onclick="return planTRIP();" type="button" value="Plan My Trip"/>
+</p>
+</form>
+<noscript>
+<div class="septa_trip_planner_links_container">
+<p>This browser does not have Javascript enabled.</p>
+<p>Please enable Javascript in the browser settings, or use these links to plan a trip:</p>
+<p class="links"><a href="http://www.google.com/transit">Google Transit</a> or <a href="http://airs1.septa.org/bin/query.exe/en?">Plan My Trip</a></p>
+</div>
+</noscript>
+</div>
+<h2><span>Quick</span> Links</h2>
+<ul id="septa_quick_links">
+<li><a href="/schedules"><img alt="Schedules" src="/site/images/schedulesIcon.gif"/></a>
+<p class="septa_quick_links_image_description">Schedules</p>
+</li>
+<li><a href="/maps"><img alt="Maps" src="/site/images/mapsIcon.gif"/></a>
+<p class="septa_quick_links_image_description">Maps</p>
+</li>
+<li><a href="/fares"><img alt="Fares" src="/site/images/fareIcon.gif"/></a>
+<p class="septa_quick_links_image_description">Fares</p>
+</li>
+<li><a href="/realtime/status/system-status.shtml"><img alt="System Status" src="/site/images/alertsIcon-new.gif"/></a>
+<p class="septa_quick_links_image_description">System<br>Status</br></p>
+</li>
+</ul>
+</div>
+<div id="septa_main_content">
+<div class="full_col">
+<div class="title_img clearfix">
+<h1>System Status <span id="updating" style="float:right"> </span></h1>
+</div>
+<div class="col_content">
+<div style="width: 723px; height: 100%; margin: auto;">
+<div style="float: left; width: 400px;">
+<p id="weatherMessages"></p>
+<p id="genericMessages"></p>
+</div>
+<div style="float: left; width: 300px;">
+<div style="float: left; width: 55px;">
+<div align="center">
+<img alt="Line Suspended" src="images/suspended-top-icon.png" title="Line Suspended">
+<p style="font: bold 10px helvetica;">Line Suspended</p>
+</img></div>
+</div>
+<div style="float: left; width: 55px;">
+<div align="center">
+<img alt="Service Alert" src="images/alert-top-icon.png" title="Service Alert">
+<p style="font: bold 10px helvetica;">Service Alert</p>
+</img></div>
+</div>
+<div style="float: left; width: 55px;">
+<div align="center">
+<img alt="Detour" src="images/detour-top-icon.png" title="Detour">
+<p style="font: bold 10px helvetica;">Detour</p>
+</img></div>
+</div>
+<div style="float: left; width: 55px;">
+<div align="center">
+<img alt="Service Advisory" src="images/advisory-top-icon.png" title="Service Advisory">
+<p style="font: bold 10px helvetica;">Service Advisory</p>
+</img></div>
+</div>
+<div style="float: left; width: 55px;">
+<div align="center">
+<img alt="TransitView" src="images/Pin.png" title="TransitView">
+<p style="font: bold 10px helvetica;">TransitView</p>
+</img></div>
+</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<noscript>
+<div align="center" id="enablejs"><font color="red" style="font-size:x-large;">Please enable Javascript to view this Page.</font>
+<br/>
+<br/>
+</div>
+</noscript><link href="css/jquery.loader.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.bubblepopup.v2.3.1.css" rel="stylesheet" type="text/css"/>
+<link href="css/loading.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+<script src="js/jquery.loader-min.js" type="text/javascript"></script>
+<script src="js/jquery.toastmessage.js" type="text/javascript"></script>
+<script src="js/jquery.bubblepopup.v2.3.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.8rc3.custom.min.js" type="text/javascript"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<link href="css/smoothness/jquery-ui-1.8rc3.custom.css" rel="stylesheet" type="text/css"/>
+<link href="fancybox/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="css/updating.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/jquery.toastmessage.css" media="all" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/updatingie7.css" media="all" type="text/css">
+<![endif]-->
+<style>
+	#fancybox-outer {
+background: url();
+}
+#fancybox-content 
+{
+	border-width: 0px !important;
+}
+
+a.infolink:hover
+{
+/*z-index:1000 !important; 
+text-decoration: none; 
+color: #1260A5; 
+font-weight:bold important; 
+font-size:x-large !important;*/
+
+	
+} 
+a.suspended img:hover
+{
+	background-image: url('images/suspended-icon-hover.png');
+}
+a.advisory img:hover
+{
+	background-image: url('images/advisory-icon-hover.png');
+}
+a.detour img:hover
+{
+	background-image: url('images/detour-icon-hover.png');
+}
+a.alert img:hover
+{
+	background-image: url('images/alert-icon-hover.png');
+}
+
+	</style><div id="dialog-message" style="display:none;" title="Error Messages"></div><div id="statusarea" style="display:none;"><h1 class="bus_status">Bus Routes</h1><div id="BusDiv"><table width="688"><tr> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								1-25						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_1" width="30"><a class="infolink" href="decktv.html?route=1&amp;routeid=bus_route_1&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 1</a></td><td align="center" class="alt" id="bus_route_1_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_1_alert" width="17">   </td><td align="center" class="alt" id="bus_route_1_detour" width="17">   </td><td align="center" class="alt" id="bus_route_1_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_1_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_2" width="30"><a class="infolink" href="decktv.html?route=2&amp;routeid=bus_route_2&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 2</a></td><td align="center" class="alt" id="bus_route_2_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_2_alert" width="17">   </td><td align="center" class="alt" id="bus_route_2_detour" width="17">   </td><td align="center" class="alt" id="bus_route_2_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_2_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_3" width="30"><a class="infolink" href="decktv.html?route=3&amp;routeid=bus_route_3&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 3</a></td><td align="center" class="alt" id="bus_route_3_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_3_alert" width="17">   </td><td align="center" class="alt" id="bus_route_3_detour" width="17">   </td><td align="center" class="alt" id="bus_route_3_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_3_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_4" width="30"><a class="infolink" href="decktv.html?route=4&amp;routeid=bus_route_4&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 4</a></td><td align="center" class="alt" id="bus_route_4_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_4_alert" width="17">   </td><td align="center" class="alt" id="bus_route_4_detour" width="17">   </td><td align="center" class="alt" id="bus_route_4_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_4_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_5" width="30"><a class="infolink" href="decktv.html?route=5&amp;routeid=bus_route_5&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 5</a></td><td align="center" class="alt" id="bus_route_5_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_5_alert" width="17">   </td><td align="center" class="alt" id="bus_route_5_detour" width="17">   </td><td align="center" class="alt" id="bus_route_5_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_5_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_6" width="30"><a class="infolink" href="decktv.html?route=6&amp;routeid=bus_route_6&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 6</a></td><td align="center" class="alt" id="bus_route_6_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_6_alert" width="17">   </td><td align="center" class="alt" id="bus_route_6_detour" width="17">   </td><td align="center" class="alt" id="bus_route_6_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_6_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_7" width="30"><a class="infolink" href="decktv.html?route=7&amp;routeid=bus_route_7&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 7</a></td><td align="center" class="alt" id="bus_route_7_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_7_alert" width="17">   </td><td align="center" class="alt" id="bus_route_7_detour" width="17">   </td><td align="center" class="alt" id="bus_route_7_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_7_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_8" width="30"><a class="infolink" href="decktv.html?route=8&amp;routeid=bus_route_8&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 8</a></td><td align="center" class="alt" id="bus_route_8_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_8_alert" width="17">   </td><td align="center" class="alt" id="bus_route_8_detour" width="17">   </td><td align="center" class="alt" id="bus_route_8_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_8_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_9" width="30"><a class="infolink" href="decktv.html?route=9&amp;routeid=bus_route_9&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 9</a></td><td align="center" class="alt" id="bus_route_9_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_9_alert" width="17">   </td><td align="center" class="alt" id="bus_route_9_detour" width="17">   </td><td align="center" class="alt" id="bus_route_9_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_9_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_12" width="30"><a class="infolink" href="decktv.html?route=12&amp;routeid=bus_route_12&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 12</a></td><td align="center" class="alt" id="bus_route_12_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_12_alert" width="17">   </td><td align="center" class="alt" id="bus_route_12_detour" width="17">   </td><td align="center" class="alt" id="bus_route_12_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_12_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_14" width="30"><a class="infolink" href="decktv.html?route=14&amp;routeid=bus_route_14&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 14</a></td><td align="center" class="alt" id="bus_route_14_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_14_alert" width="17">   </td><td align="center" class="alt" id="bus_route_14_detour" width="17">   </td><td align="center" class="alt" id="bus_route_14_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_14_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_16" width="30"><a class="infolink" href="decktv.html?route=16&amp;routeid=bus_route_16&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 16</a></td><td align="center" class="alt" id="bus_route_16_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_16_alert" width="17">   </td><td align="center" class="alt" id="bus_route_16_detour" width="17">   </td><td align="center" class="alt" id="bus_route_16_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_16_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_17" width="30"><a class="infolink" href="decktv.html?route=17&amp;routeid=bus_route_17&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 17</a></td><td align="center" class="alt" id="bus_route_17_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_17_alert" width="17">   </td><td align="center" class="alt" id="bus_route_17_detour" width="17">   </td><td align="center" class="alt" id="bus_route_17_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_17_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_18" width="30"><a class="infolink" href="decktv.html?route=18&amp;routeid=bus_route_18&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 18</a></td><td align="center" class="alt" id="bus_route_18_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_18_alert" width="17">   </td><td align="center" class="alt" id="bus_route_18_detour" width="17">   </td><td align="center" class="alt" id="bus_route_18_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_18_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_19" width="30"><a class="infolink" href="decktv.html?route=19&amp;routeid=bus_route_19&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 19</a></td><td align="center" class="alt" id="bus_route_19_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_19_alert" width="17">   </td><td align="center" class="alt" id="bus_route_19_detour" width="17">   </td><td align="center" class="alt" id="bus_route_19_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_19_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_20" width="30"><a class="infolink" href="decktv.html?route=20&amp;routeid=bus_route_20&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 20</a></td><td align="center" class="alt" id="bus_route_20_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_20_alert" width="17">   </td><td align="center" class="alt" id="bus_route_20_detour" width="17">   </td><td align="center" class="alt" id="bus_route_20_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_20_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_21" width="30"><a class="infolink" href="decktv.html?route=21&amp;routeid=bus_route_21&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 21</a></td><td align="center" class="alt" id="bus_route_21_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_21_alert" width="17">   </td><td align="center" class="alt" id="bus_route_21_detour" width="17">   </td><td align="center" class="alt" id="bus_route_21_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_21_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_22" width="30"><a class="infolink" href="decktv.html?route=22&amp;routeid=bus_route_22&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 22</a></td><td align="center" class="alt" id="bus_route_22_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_22_alert" width="17">   </td><td align="center" class="alt" id="bus_route_22_detour" width="17">   </td><td align="center" class="alt" id="bus_route_22_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_22_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_23" width="30"><a class="infolink" href="decktv.html?route=23&amp;routeid=bus_route_23&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 23</a></td><td align="center" class="alt" id="bus_route_23_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_23_alert" width="17">   </td><td align="center" class="alt" id="bus_route_23_detour" width="17">   </td><td align="center" class="alt" id="bus_route_23_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_23_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_24" width="30"><a class="infolink" href="decktv.html?route=24&amp;routeid=bus_route_24&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 24</a></td><td align="center" class="alt" id="bus_route_24_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_24_alert" width="17">   </td><td align="center" class="alt" id="bus_route_24_detour" width="17">   </td><td align="center" class="alt" id="bus_route_24_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_24_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_25" width="30"><a class="infolink" href="decktv.html?route=25&amp;routeid=bus_route_25&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 25</a></td><td align="center" class="alt" id="bus_route_25_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_25_alert" width="17">   </td><td align="center" class="alt" id="bus_route_25_detour" width="17">   </td><td align="center" class="alt" id="bus_route_25_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_25_transitview" width="17">   </td></tr></table></td> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								26-50						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_26" width="30"><a class="infolink" href="decktv.html?route=26&amp;routeid=bus_route_26&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 26</a></td><td align="center" class='width="17"' id="bus_route_26_suspended">   </td><td align="center" class='width="17"' id="bus_route_26_alert">   </td><td align="center" class='width="17"' id="bus_route_26_detour">   </td><td align="center" class='width="17"' id="bus_route_26_advisory">   </td><td align="center" class='width="17"' id="bus_route_26_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_27" width="30"><a class="infolink" href="decktv.html?route=27&amp;routeid=bus_route_27&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 27</a></td><td align="center" class='width="17"' id="bus_route_27_suspended">   </td><td align="center" class='width="17"' id="bus_route_27_alert">   </td><td align="center" class='width="17"' id="bus_route_27_detour">   </td><td align="center" class='width="17"' id="bus_route_27_advisory">   </td><td align="center" class='width="17"' id="bus_route_27_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_28" width="30"><a class="infolink" href="decktv.html?route=28&amp;routeid=bus_route_28&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 28</a></td><td align="center" class='width="17"' id="bus_route_28_suspended">   </td><td align="center" class='width="17"' id="bus_route_28_alert">   </td><td align="center" class='width="17"' id="bus_route_28_detour">   </td><td align="center" class='width="17"' id="bus_route_28_advisory">   </td><td align="center" class='width="17"' id="bus_route_28_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_29" width="30"><a class="infolink" href="decktv.html?route=29&amp;routeid=bus_route_29&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 29</a></td><td align="center" class='width="17"' id="bus_route_29_suspended">   </td><td align="center" class='width="17"' id="bus_route_29_alert">   </td><td align="center" class='width="17"' id="bus_route_29_detour">   </td><td align="center" class='width="17"' id="bus_route_29_advisory">   </td><td align="center" class='width="17"' id="bus_route_29_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_30" width="30"><a class="infolink" href="decktv.html?route=30&amp;routeid=bus_route_30&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 30</a></td><td align="center" class='width="17"' id="bus_route_30_suspended">   </td><td align="center" class='width="17"' id="bus_route_30_alert">   </td><td align="center" class='width="17"' id="bus_route_30_detour">   </td><td align="center" class='width="17"' id="bus_route_30_advisory">   </td><td align="center" class='width="17"' id="bus_route_30_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_31" width="30"><a class="infolink" href="decktv.html?route=31&amp;routeid=bus_route_31&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 31</a></td><td align="center" class='width="17"' id="bus_route_31_suspended">   </td><td align="center" class='width="17"' id="bus_route_31_alert">   </td><td align="center" class='width="17"' id="bus_route_31_detour">   </td><td align="center" class='width="17"' id="bus_route_31_advisory">   </td><td align="center" class='width="17"' id="bus_route_31_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_32" width="30"><a class="infolink" href="decktv.html?route=32&amp;routeid=bus_route_32&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 32</a></td><td align="center" class='width="17"' id="bus_route_32_suspended">   </td><td align="center" class='width="17"' id="bus_route_32_alert">   </td><td align="center" class='width="17"' id="bus_route_32_detour">   </td><td align="center" class='width="17"' id="bus_route_32_advisory">   </td><td align="center" class='width="17"' id="bus_route_32_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_33" width="30"><a class="infolink" href="decktv.html?route=33&amp;routeid=bus_route_33&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 33</a></td><td align="center" class='width="17"' id="bus_route_33_suspended">   </td><td align="center" class='width="17"' id="bus_route_33_alert">   </td><td align="center" class='width="17"' id="bus_route_33_detour">   </td><td align="center" class='width="17"' id="bus_route_33_advisory">   </td><td align="center" class='width="17"' id="bus_route_33_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_35" width="30"><a class="infolink" href="decktv.html?route=35&amp;routeid=bus_route_35&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 35</a></td><td align="center" class='width="17"' id="bus_route_35_suspended">   </td><td align="center" class='width="17"' id="bus_route_35_alert">   </td><td align="center" class='width="17"' id="bus_route_35_detour">   </td><td align="center" class='width="17"' id="bus_route_35_advisory">   </td><td align="center" class='width="17"' id="bus_route_35_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_37" width="30"><a class="infolink" href="decktv.html?route=37&amp;routeid=bus_route_37&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 37</a></td><td align="center" class='width="17"' id="bus_route_37_suspended">   </td><td align="center" class='width="17"' id="bus_route_37_alert">   </td><td align="center" class='width="17"' id="bus_route_37_detour">   </td><td align="center" class='width="17"' id="bus_route_37_advisory">   </td><td align="center" class='width="17"' id="bus_route_37_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_38" width="30"><a class="infolink" href="decktv.html?route=38&amp;routeid=bus_route_38&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 38</a></td><td align="center" class='width="17"' id="bus_route_38_suspended">   </td><td align="center" class='width="17"' id="bus_route_38_alert">   </td><td align="center" class='width="17"' id="bus_route_38_detour">   </td><td align="center" class='width="17"' id="bus_route_38_advisory">   </td><td align="center" class='width="17"' id="bus_route_38_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_39" width="30"><a class="infolink" href="decktv.html?route=39&amp;routeid=bus_route_39&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 39</a></td><td align="center" class='width="17"' id="bus_route_39_suspended">   </td><td align="center" class='width="17"' id="bus_route_39_alert">   </td><td align="center" class='width="17"' id="bus_route_39_detour">   </td><td align="center" class='width="17"' id="bus_route_39_advisory">   </td><td align="center" class='width="17"' id="bus_route_39_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_40" width="30"><a class="infolink" href="decktv.html?route=40&amp;routeid=bus_route_40&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 40</a></td><td align="center" class='width="17"' id="bus_route_40_suspended">   </td><td align="center" class='width="17"' id="bus_route_40_alert">   </td><td align="center" class='width="17"' id="bus_route_40_detour">   </td><td align="center" class='width="17"' id="bus_route_40_advisory">   </td><td align="center" class='width="17"' id="bus_route_40_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_42" width="30"><a class="infolink" href="decktv.html?route=42&amp;routeid=bus_route_42&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 42</a></td><td align="center" class='width="17"' id="bus_route_42_suspended">   </td><td align="center" class='width="17"' id="bus_route_42_alert">   </td><td align="center" class='width="17"' id="bus_route_42_detour">   </td><td align="center" class='width="17"' id="bus_route_42_advisory">   </td><td align="center" class='width="17"' id="bus_route_42_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_43" width="30"><a class="infolink" href="decktv.html?route=43&amp;routeid=bus_route_43&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 43</a></td><td align="center" class='width="17"' id="bus_route_43_suspended">   </td><td align="center" class='width="17"' id="bus_route_43_alert">   </td><td align="center" class='width="17"' id="bus_route_43_detour">   </td><td align="center" class='width="17"' id="bus_route_43_advisory">   </td><td align="center" class='width="17"' id="bus_route_43_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_44" width="30"><a class="infolink" href="decktv.html?route=44&amp;routeid=bus_route_44&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 44</a></td><td align="center" class='width="17"' id="bus_route_44_suspended">   </td><td align="center" class='width="17"' id="bus_route_44_alert">   </td><td align="center" class='width="17"' id="bus_route_44_detour">   </td><td align="center" class='width="17"' id="bus_route_44_advisory">   </td><td align="center" class='width="17"' id="bus_route_44_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_46" width="30"><a class="infolink" href="decktv.html?route=46&amp;routeid=bus_route_46&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 46</a></td><td align="center" class='width="17"' id="bus_route_46_suspended">   </td><td align="center" class='width="17"' id="bus_route_46_alert">   </td><td align="center" class='width="17"' id="bus_route_46_detour">   </td><td align="center" class='width="17"' id="bus_route_46_advisory">   </td><td align="center" class='width="17"' id="bus_route_46_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_47" width="30"><a class="infolink" href="decktv.html?route=47&amp;routeid=bus_route_47&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 47</a></td><td align="center" class='width="17"' id="bus_route_47_suspended">   </td><td align="center" class='width="17"' id="bus_route_47_alert">   </td><td align="center" class='width="17"' id="bus_route_47_detour">   </td><td align="center" class='width="17"' id="bus_route_47_advisory">   </td><td align="center" class='width="17"' id="bus_route_47_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_47M" width="30"><a class="infolink" href="decktv.html?route=47M&amp;routeid=bus_route_47M&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 47M</a></td><td align="center" class='width="17"' id="bus_route_47M_suspended">   </td><td align="center" class='width="17"' id="bus_route_47M_alert">   </td><td align="center" class='width="17"' id="bus_route_47M_detour">   </td><td align="center" class='width="17"' id="bus_route_47M_advisory">   </td><td align="center" class='width="17"' id="bus_route_47M_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_48" width="30"><a class="infolink" href="decktv.html?route=48&amp;routeid=bus_route_48&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 48</a></td><td align="center" class='width="17"' id="bus_route_48_suspended">   </td><td align="center" class='width="17"' id="bus_route_48_alert">   </td><td align="center" class='width="17"' id="bus_route_48_detour">   </td><td align="center" class='width="17"' id="bus_route_48_advisory">   </td><td align="center" class='width="17"' id="bus_route_48_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_50" width="30"><a class="infolink" href="decktv.html?route=50&amp;routeid=bus_route_50&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 50</a></td><td align="center" class='width="17"' id="bus_route_50_suspended">   </td><td align="center" class='width="17"' id="bus_route_50_alert">   </td><td align="center" class='width="17"' id="bus_route_50_detour">   </td><td align="center" class='width="17"' id="bus_route_50_advisory">   </td><td align="center" class='width="17"' id="bus_route_50_transitview">   </td></tr></table></td> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								52-78						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_52" width="30"><a class="infolink" href="decktv.html?route=52&amp;routeid=bus_route_52&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 52</a></td><td align="center" class="alt" id="bus_route_52_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_52_alert" width="17">   </td><td align="center" class="alt" id="bus_route_52_detour" width="17">   </td><td align="center" class="alt" id="bus_route_52_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_52_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_53" width="30"><a class="infolink" href="decktv.html?route=53&amp;routeid=bus_route_53&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 53</a></td><td align="center" class="alt" id="bus_route_53_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_53_alert" width="17">   </td><td align="center" class="alt" id="bus_route_53_detour" width="17">   </td><td align="center" class="alt" id="bus_route_53_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_53_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_54" width="30"><a class="infolink" href="decktv.html?route=54&amp;routeid=bus_route_54&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 54</a></td><td align="center" class="alt" id="bus_route_54_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_54_alert" width="17">   </td><td align="center" class="alt" id="bus_route_54_detour" width="17">   </td><td align="center" class="alt" id="bus_route_54_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_54_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_55" width="30"><a class="infolink" href="decktv.html?route=55&amp;routeid=bus_route_55&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 55</a></td><td align="center" class="alt" id="bus_route_55_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_55_alert" width="17">   </td><td align="center" class="alt" id="bus_route_55_detour" width="17">   </td><td align="center" class="alt" id="bus_route_55_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_55_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_56" width="30"><a class="infolink" href="decktv.html?route=56&amp;routeid=bus_route_56&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 56</a></td><td align="center" class="alt" id="bus_route_56_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_56_alert" width="17">   </td><td align="center" class="alt" id="bus_route_56_detour" width="17">   </td><td align="center" class="alt" id="bus_route_56_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_56_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_57" width="30"><a class="infolink" href="decktv.html?route=57&amp;routeid=bus_route_57&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 57</a></td><td align="center" class="alt" id="bus_route_57_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_57_alert" width="17">   </td><td align="center" class="alt" id="bus_route_57_detour" width="17">   </td><td align="center" class="alt" id="bus_route_57_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_57_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_58" width="30"><a class="infolink" href="decktv.html?route=58&amp;routeid=bus_route_58&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 58</a></td><td align="center" class="alt" id="bus_route_58_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_58_alert" width="17">   </td><td align="center" class="alt" id="bus_route_58_detour" width="17">   </td><td align="center" class="alt" id="bus_route_58_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_58_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_59" width="30"><a class="infolink" href="decktv.html?route=59&amp;routeid=bus_route_59&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 59</a></td><td align="center" class="alt" id="bus_route_59_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_59_alert" width="17">   </td><td align="center" class="alt" id="bus_route_59_detour" width="17">   </td><td align="center" class="alt" id="bus_route_59_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_59_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_60" width="30"><a class="infolink" href="decktv.html?route=60&amp;routeid=bus_route_60&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 60</a></td><td align="center" class="alt" id="bus_route_60_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_60_alert" width="17">   </td><td align="center" class="alt" id="bus_route_60_detour" width="17">   </td><td align="center" class="alt" id="bus_route_60_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_60_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_61" width="30"><a class="infolink" href="decktv.html?route=61&amp;routeid=bus_route_61&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 61</a></td><td align="center" class="alt" id="bus_route_61_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_61_alert" width="17">   </td><td align="center" class="alt" id="bus_route_61_detour" width="17">   </td><td align="center" class="alt" id="bus_route_61_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_61_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_62" width="30"><a class="infolink" href="decktv.html?route=62&amp;routeid=bus_route_62&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 62</a></td><td align="center" class="alt" id="bus_route_62_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_62_alert" width="17">   </td><td align="center" class="alt" id="bus_route_62_detour" width="17">   </td><td align="center" class="alt" id="bus_route_62_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_62_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_64" width="30"><a class="infolink" href="decktv.html?route=64&amp;routeid=bus_route_64&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 64</a></td><td align="center" class="alt" id="bus_route_64_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_64_alert" width="17">   </td><td align="center" class="alt" id="bus_route_64_detour" width="17">   </td><td align="center" class="alt" id="bus_route_64_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_64_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_65" width="30"><a class="infolink" href="decktv.html?route=65&amp;routeid=bus_route_65&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 65</a></td><td align="center" class="alt" id="bus_route_65_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_65_alert" width="17">   </td><td align="center" class="alt" id="bus_route_65_detour" width="17">   </td><td align="center" class="alt" id="bus_route_65_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_65_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_66" width="30"><a class="infolink" href="decktv.html?route=66&amp;routeid=bus_route_66&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 66</a></td><td align="center" class="alt" id="bus_route_66_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_66_alert" width="17">   </td><td align="center" class="alt" id="bus_route_66_detour" width="17">   </td><td align="center" class="alt" id="bus_route_66_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_66_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_67" width="30"><a class="infolink" href="decktv.html?route=67&amp;routeid=bus_route_67&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 67</a></td><td align="center" class="alt" id="bus_route_67_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_67_alert" width="17">   </td><td align="center" class="alt" id="bus_route_67_detour" width="17">   </td><td align="center" class="alt" id="bus_route_67_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_67_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_68" width="30"><a class="infolink" href="decktv.html?route=68&amp;routeid=bus_route_68&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 68</a></td><td align="center" class="alt" id="bus_route_68_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_68_alert" width="17">   </td><td align="center" class="alt" id="bus_route_68_detour" width="17">   </td><td align="center" class="alt" id="bus_route_68_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_68_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_70" width="30"><a class="infolink" href="decktv.html?route=70&amp;routeid=bus_route_70&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 70</a></td><td align="center" class="alt" id="bus_route_70_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_70_alert" width="17">   </td><td align="center" class="alt" id="bus_route_70_detour" width="17">   </td><td align="center" class="alt" id="bus_route_70_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_70_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_73" width="30"><a class="infolink" href="decktv.html?route=73&amp;routeid=bus_route_73&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 73</a></td><td align="center" class="alt" id="bus_route_73_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_73_alert" width="17">   </td><td align="center" class="alt" id="bus_route_73_detour" width="17">   </td><td align="center" class="alt" id="bus_route_73_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_73_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_75" width="30"><a class="infolink" href="decktv.html?route=75&amp;routeid=bus_route_75&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 75</a></td><td align="center" class="alt" id="bus_route_75_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_75_alert" width="17">   </td><td align="center" class="alt" id="bus_route_75_detour" width="17">   </td><td align="center" class="alt" id="bus_route_75_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_75_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_77" width="30"><a class="infolink" href="decktv.html?route=77&amp;routeid=bus_route_77&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 77</a></td><td align="center" class="alt" id="bus_route_77_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_77_alert" width="17">   </td><td align="center" class="alt" id="bus_route_77_detour" width="17">   </td><td align="center" class="alt" id="bus_route_77_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_77_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_78" width="30"><a class="infolink" href="decktv.html?route=78&amp;routeid=bus_route_78&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 78</a></td><td align="center" class="alt" id="bus_route_78_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_78_alert" width="17">   </td><td align="center" class="alt" id="bus_route_78_detour" width="17">   </td><td align="center" class="alt" id="bus_route_78_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_78_transitview" width="17">   </td></tr></table></td> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								79-108						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_79" width="30"><a class="infolink" href="decktv.html?route=79&amp;routeid=bus_route_79&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 79</a></td><td align="center" class='width="17"' id="bus_route_79_suspended">   </td><td align="center" class='width="17"' id="bus_route_79_alert">   </td><td align="center" class='width="17"' id="bus_route_79_detour">   </td><td align="center" class='width="17"' id="bus_route_79_advisory">   </td><td align="center" class='width="17"' id="bus_route_79_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_80" width="30"><a class="infolink" href="decktv.html?route=80&amp;routeid=bus_route_80&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 80</a></td><td align="center" class='width="17"' id="bus_route_80_suspended">   </td><td align="center" class='width="17"' id="bus_route_80_alert">   </td><td align="center" class='width="17"' id="bus_route_80_detour">   </td><td align="center" class='width="17"' id="bus_route_80_advisory">   </td><td align="center" class='width="17"' id="bus_route_80_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_84" width="30"><a class="infolink" href="decktv.html?route=84&amp;routeid=bus_route_84&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 84</a></td><td align="center" class='width="17"' id="bus_route_84_suspended">   </td><td align="center" class='width="17"' id="bus_route_84_alert">   </td><td align="center" class='width="17"' id="bus_route_84_detour">   </td><td align="center" class='width="17"' id="bus_route_84_advisory">   </td><td align="center" class='width="17"' id="bus_route_84_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_88" width="30"><a class="infolink" href="decktv.html?route=88&amp;routeid=bus_route_88&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 88</a></td><td align="center" class='width="17"' id="bus_route_88_suspended">   </td><td align="center" class='width="17"' id="bus_route_88_alert">   </td><td align="center" class='width="17"' id="bus_route_88_detour">   </td><td align="center" class='width="17"' id="bus_route_88_advisory">   </td><td align="center" class='width="17"' id="bus_route_88_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_89" width="30"><a class="infolink" href="decktv.html?route=89&amp;routeid=bus_route_89&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 89</a></td><td align="center" class='width="17"' id="bus_route_89_suspended">   </td><td align="center" class='width="17"' id="bus_route_89_alert">   </td><td align="center" class='width="17"' id="bus_route_89_detour">   </td><td align="center" class='width="17"' id="bus_route_89_advisory">   </td><td align="center" class='width="17"' id="bus_route_89_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_90" width="30"><a class="infolink" href="decktv.html?route=90&amp;routeid=bus_route_90&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 90</a></td><td align="center" class='width="17"' id="bus_route_90_suspended">   </td><td align="center" class='width="17"' id="bus_route_90_alert">   </td><td align="center" class='width="17"' id="bus_route_90_detour">   </td><td align="center" class='width="17"' id="bus_route_90_advisory">   </td><td align="center" class='width="17"' id="bus_route_90_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_91" width="30"><a class="infolink" href="decktv.html?route=91&amp;routeid=bus_route_91&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 91</a></td><td align="center" class='width="17"' id="bus_route_91_suspended">   </td><td align="center" class='width="17"' id="bus_route_91_alert">   </td><td align="center" class='width="17"' id="bus_route_91_detour">   </td><td align="center" class='width="17"' id="bus_route_91_advisory">   </td><td align="center" class='width="17"' id="bus_route_91_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_92" width="30"><a class="infolink" href="decktv.html?route=92&amp;routeid=bus_route_92&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 92</a></td><td align="center" class='width="17"' id="bus_route_92_suspended">   </td><td align="center" class='width="17"' id="bus_route_92_alert">   </td><td align="center" class='width="17"' id="bus_route_92_detour">   </td><td align="center" class='width="17"' id="bus_route_92_advisory">   </td><td align="center" class='width="17"' id="bus_route_92_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_93" width="30"><a class="infolink" href="decktv.html?route=93&amp;routeid=bus_route_93&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 93</a></td><td align="center" class='width="17"' id="bus_route_93_suspended">   </td><td align="center" class='width="17"' id="bus_route_93_alert">   </td><td align="center" class='width="17"' id="bus_route_93_detour">   </td><td align="center" class='width="17"' id="bus_route_93_advisory">   </td><td align="center" class='width="17"' id="bus_route_93_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_94" width="30"><a class="infolink" href="decktv.html?route=94&amp;routeid=bus_route_94&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 94</a></td><td align="center" class='width="17"' id="bus_route_94_suspended">   </td><td align="center" class='width="17"' id="bus_route_94_alert">   </td><td align="center" class='width="17"' id="bus_route_94_detour">   </td><td align="center" class='width="17"' id="bus_route_94_advisory">   </td><td align="center" class='width="17"' id="bus_route_94_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_95" width="30"><a class="infolink" href="decktv.html?route=95&amp;routeid=bus_route_95&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 95</a></td><td align="center" class='width="17"' id="bus_route_95_suspended">   </td><td align="center" class='width="17"' id="bus_route_95_alert">   </td><td align="center" class='width="17"' id="bus_route_95_detour">   </td><td align="center" class='width="17"' id="bus_route_95_advisory">   </td><td align="center" class='width="17"' id="bus_route_95_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_96" width="30"><a class="infolink" href="decktv.html?route=96&amp;routeid=bus_route_96&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 96</a></td><td align="center" class='width="17"' id="bus_route_96_suspended">   </td><td align="center" class='width="17"' id="bus_route_96_alert">   </td><td align="center" class='width="17"' id="bus_route_96_detour">   </td><td align="center" class='width="17"' id="bus_route_96_advisory">   </td><td align="center" class='width="17"' id="bus_route_96_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_97" width="30"><a class="infolink" href="decktv.html?route=97&amp;routeid=bus_route_97&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 97</a></td><td align="center" class='width="17"' id="bus_route_97_suspended">   </td><td align="center" class='width="17"' id="bus_route_97_alert">   </td><td align="center" class='width="17"' id="bus_route_97_detour">   </td><td align="center" class='width="17"' id="bus_route_97_advisory">   </td><td align="center" class='width="17"' id="bus_route_97_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_98" width="30"><a class="infolink" href="decktv.html?route=98&amp;routeid=bus_route_98&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 98</a></td><td align="center" class='width="17"' id="bus_route_98_suspended">   </td><td align="center" class='width="17"' id="bus_route_98_alert">   </td><td align="center" class='width="17"' id="bus_route_98_detour">   </td><td align="center" class='width="17"' id="bus_route_98_advisory">   </td><td align="center" class='width="17"' id="bus_route_98_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_99" width="30"><a class="infolink" href="decktv.html?route=99&amp;routeid=bus_route_99&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 99</a></td><td align="center" class='width="17"' id="bus_route_99_suspended">   </td><td align="center" class='width="17"' id="bus_route_99_alert">   </td><td align="center" class='width="17"' id="bus_route_99_detour">   </td><td align="center" class='width="17"' id="bus_route_99_advisory">   </td><td align="center" class='width="17"' id="bus_route_99_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_103" width="30"><a class="infolink" href="decktv.html?route=103&amp;routeid=bus_route_103&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 103</a></td><td align="center" class='width="17"' id="bus_route_103_suspended">   </td><td align="center" class='width="17"' id="bus_route_103_alert">   </td><td align="center" class='width="17"' id="bus_route_103_detour">   </td><td align="center" class='width="17"' id="bus_route_103_advisory">   </td><td align="center" class='width="17"' id="bus_route_103_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_104" width="30"><a class="infolink" href="decktv.html?route=104&amp;routeid=bus_route_104&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 104</a></td><td align="center" class='width="17"' id="bus_route_104_suspended">   </td><td align="center" class='width="17"' id="bus_route_104_alert">   </td><td align="center" class='width="17"' id="bus_route_104_detour">   </td><td align="center" class='width="17"' id="bus_route_104_advisory">   </td><td align="center" class='width="17"' id="bus_route_104_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_105" width="30"><a class="infolink" href="decktv.html?route=105&amp;routeid=bus_route_105&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 105</a></td><td align="center" class='width="17"' id="bus_route_105_suspended">   </td><td align="center" class='width="17"' id="bus_route_105_alert">   </td><td align="center" class='width="17"' id="bus_route_105_detour">   </td><td align="center" class='width="17"' id="bus_route_105_advisory">   </td><td align="center" class='width="17"' id="bus_route_105_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_106" width="30"><a class="infolink" href="decktv.html?route=106&amp;routeid=bus_route_106&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 106</a></td><td align="center" class='width="17"' id="bus_route_106_suspended">   </td><td align="center" class='width="17"' id="bus_route_106_alert">   </td><td align="center" class='width="17"' id="bus_route_106_detour">   </td><td align="center" class='width="17"' id="bus_route_106_advisory">   </td><td align="center" class='width="17"' id="bus_route_106_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_107" width="30"><a class="infolink" href="decktv.html?route=107&amp;routeid=bus_route_107&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 107</a></td><td align="center" class='width="17"' id="bus_route_107_suspended">   </td><td align="center" class='width="17"' id="bus_route_107_alert">   </td><td align="center" class='width="17"' id="bus_route_107_detour">   </td><td align="center" class='width="17"' id="bus_route_107_advisory">   </td><td align="center" class='width="17"' id="bus_route_107_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_108" width="30"><a class="infolink" href="decktv.html?route=108&amp;routeid=bus_route_108&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 108</a></td><td align="center" class='width="17"' id="bus_route_108_suspended">   </td><td align="center" class='width="17"' id="bus_route_108_alert">   </td><td align="center" class='width="17"' id="bus_route_108_detour">   </td><td align="center" class='width="17"' id="bus_route_108_advisory">   </td><td align="center" class='width="17"' id="bus_route_108_transitview">   </td></tr></table></td> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								109-132						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_109" width="30"><a class="infolink" href="decktv.html?route=109&amp;routeid=bus_route_109&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 109</a></td><td align="center" class="alt" id="bus_route_109_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_109_alert" width="17">   </td><td align="center" class="alt" id="bus_route_109_detour" width="17">   </td><td align="center" class="alt" id="bus_route_109_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_109_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_110" width="30"><a class="infolink" href="decktv.html?route=110&amp;routeid=bus_route_110&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 110</a></td><td align="center" class="alt" id="bus_route_110_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_110_alert" width="17">   </td><td align="center" class="alt" id="bus_route_110_detour" width="17">   </td><td align="center" class="alt" id="bus_route_110_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_110_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_111" width="30"><a class="infolink" href="decktv.html?route=111&amp;routeid=bus_route_111&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 111</a></td><td align="center" class="alt" id="bus_route_111_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_111_alert" width="17">   </td><td align="center" class="alt" id="bus_route_111_detour" width="17">   </td><td align="center" class="alt" id="bus_route_111_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_111_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_112" width="30"><a class="infolink" href="decktv.html?route=112&amp;routeid=bus_route_112&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 112</a></td><td align="center" class="alt" id="bus_route_112_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_112_alert" width="17">   </td><td align="center" class="alt" id="bus_route_112_detour" width="17">   </td><td align="center" class="alt" id="bus_route_112_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_112_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_113" width="30"><a class="infolink" href="decktv.html?route=113&amp;routeid=bus_route_113&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 113</a></td><td align="center" class="alt" id="bus_route_113_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_113_alert" width="17">   </td><td align="center" class="alt" id="bus_route_113_detour" width="17">   </td><td align="center" class="alt" id="bus_route_113_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_113_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_114" width="30"><a class="infolink" href="decktv.html?route=114&amp;routeid=bus_route_114&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 114</a></td><td align="center" class="alt" id="bus_route_114_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_114_alert" width="17">   </td><td align="center" class="alt" id="bus_route_114_detour" width="17">   </td><td align="center" class="alt" id="bus_route_114_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_114_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_115" width="30"><a class="infolink" href="decktv.html?route=115&amp;routeid=bus_route_115&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 115</a></td><td align="center" class="alt" id="bus_route_115_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_115_alert" width="17">   </td><td align="center" class="alt" id="bus_route_115_detour" width="17">   </td><td align="center" class="alt" id="bus_route_115_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_115_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_117" width="30"><a class="infolink" href="decktv.html?route=117&amp;routeid=bus_route_117&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 117</a></td><td align="center" class="alt" id="bus_route_117_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_117_alert" width="17">   </td><td align="center" class="alt" id="bus_route_117_detour" width="17">   </td><td align="center" class="alt" id="bus_route_117_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_117_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_118" width="30"><a class="infolink" href="decktv.html?route=118&amp;routeid=bus_route_118&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 118</a></td><td align="center" class="alt" id="bus_route_118_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_118_alert" width="17">   </td><td align="center" class="alt" id="bus_route_118_detour" width="17">   </td><td align="center" class="alt" id="bus_route_118_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_118_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_119" width="30"><a class="infolink" href="decktv.html?route=119&amp;routeid=bus_route_119&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 119</a></td><td align="center" class="alt" id="bus_route_119_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_119_alert" width="17">   </td><td align="center" class="alt" id="bus_route_119_detour" width="17">   </td><td align="center" class="alt" id="bus_route_119_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_119_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_120" width="30"><a class="infolink" href="decktv.html?route=120&amp;routeid=bus_route_120&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 120</a></td><td align="center" class="alt" id="bus_route_120_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_120_alert" width="17">   </td><td align="center" class="alt" id="bus_route_120_detour" width="17">   </td><td align="center" class="alt" id="bus_route_120_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_120_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_123" width="30"><a class="infolink" href="decktv.html?route=123&amp;routeid=bus_route_123&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 123</a></td><td align="center" class="alt" id="bus_route_123_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_123_alert" width="17">   </td><td align="center" class="alt" id="bus_route_123_detour" width="17">   </td><td align="center" class="alt" id="bus_route_123_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_123_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_124" width="30"><a class="infolink" href="decktv.html?route=124&amp;routeid=bus_route_124&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 124</a></td><td align="center" class="alt" id="bus_route_124_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_124_alert" width="17">   </td><td align="center" class="alt" id="bus_route_124_detour" width="17">   </td><td align="center" class="alt" id="bus_route_124_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_124_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_125" width="30"><a class="infolink" href="decktv.html?route=125&amp;routeid=bus_route_125&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 125</a></td><td align="center" class="alt" id="bus_route_125_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_125_alert" width="17">   </td><td align="center" class="alt" id="bus_route_125_detour" width="17">   </td><td align="center" class="alt" id="bus_route_125_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_125_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_126" width="30"><a class="infolink" href="decktv.html?route=126&amp;routeid=bus_route_126&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 126</a></td><td align="center" class="alt" id="bus_route_126_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_126_alert" width="17">   </td><td align="center" class="alt" id="bus_route_126_detour" width="17">   </td><td align="center" class="alt" id="bus_route_126_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_126_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_127" width="30"><a class="infolink" href="decktv.html?route=127&amp;routeid=bus_route_127&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 127</a></td><td align="center" class="alt" id="bus_route_127_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_127_alert" width="17">   </td><td align="center" class="alt" id="bus_route_127_detour" width="17">   </td><td align="center" class="alt" id="bus_route_127_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_127_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_128" width="30"><a class="infolink" href="decktv.html?route=128&amp;routeid=bus_route_128&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 128</a></td><td align="center" class="alt" id="bus_route_128_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_128_alert" width="17">   </td><td align="center" class="alt" id="bus_route_128_detour" width="17">   </td><td align="center" class="alt" id="bus_route_128_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_128_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_129" width="30"><a class="infolink" href="decktv.html?route=129&amp;routeid=bus_route_129&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 129</a></td><td align="center" class="alt" id="bus_route_129_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_129_alert" width="17">   </td><td align="center" class="alt" id="bus_route_129_detour" width="17">   </td><td align="center" class="alt" id="bus_route_129_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_129_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_130" width="30"><a class="infolink" href="decktv.html?route=130&amp;routeid=bus_route_130&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 130</a></td><td align="center" class="alt" id="bus_route_130_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_130_alert" width="17">   </td><td align="center" class="alt" id="bus_route_130_detour" width="17">   </td><td align="center" class="alt" id="bus_route_130_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_130_transitview" width="17">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_131" width="30"><a class="infolink" href="decktv.html?route=131&amp;routeid=bus_route_131&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 131</a></td><td align="center" class="alt" id="bus_route_131_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_131_alert" width="17">   </td><td align="center" class="alt" id="bus_route_131_detour" width="17">   </td><td align="center" class="alt" id="bus_route_131_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_131_transitview" width="17">   </td></tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="alt" id="bus_route_132" width="30"><a class="infolink" href="decktv.html?route=132&amp;routeid=bus_route_132&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> 132</a></td><td align="center" class="alt" id="bus_route_132_suspended" width="17">   </td><td align="center" class="alt" id="bus_route_132_alert" width="17">   </td><td align="center" class="alt" id="bus_route_132_detour" width="17">   </td><td align="center" class="alt" id="bus_route_132_advisory" width="17">   </td><td align="center" class="alt" id="bus_route_132_transitview" width="17">   </td></table></td></tr></table></div></div></link></link></div></div></div></div></body> <td align="left" valign="top" width="">
+<h2 class="gray"><div align="center"> 	
+								133-XH						</div></h2>
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_133" width="30"><a class="infolink" href="decktv.html?route=133&amp;routeid=bus_route_133&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 133</a></td><td align="center" class='width="17"' id="bus_route_133_suspended">   </td><td align="center" class='width="17"' id="bus_route_133_alert">   </td><td align="center" class='width="17"' id="bus_route_133_detour">   </td><td align="center" class='width="17"' id="bus_route_133_advisory">   </td><td align="center" class='width="17"' id="bus_route_133_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_139" width="30"><a class="infolink" href="decktv.html?route=139&amp;routeid=bus_route_139&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 139</a></td><td align="center" class='width="17"' id="bus_route_139_suspended">   </td><td align="center" class='width="17"' id="bus_route_139_alert">   </td><td align="center" class='width="17"' id="bus_route_139_detour">   </td><td align="center" class='width="17"' id="bus_route_139_advisory">   </td><td align="center" class='width="17"' id="bus_route_139_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_150" width="30"><a class="infolink" href="decktv.html?route=150&amp;routeid=bus_route_150&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 150</a></td><td align="center" class='width="17"' id="bus_route_150_suspended">   </td><td align="center" class='width="17"' id="bus_route_150_alert">   </td><td align="center" class='width="17"' id="bus_route_150_detour">   </td><td align="center" class='width="17"' id="bus_route_150_advisory">   </td><td align="center" class='width="17"' id="bus_route_150_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_201" width="30"><a class="infolink" href="decktv.html?route=201&amp;routeid=bus_route_201&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 201</a></td><td align="center" class='width="17"' id="bus_route_201_suspended">   </td><td align="center" class='width="17"' id="bus_route_201_alert">   </td><td align="center" class='width="17"' id="bus_route_201_detour">   </td><td align="center" class='width="17"' id="bus_route_201_advisory">   </td><td align="center" class='width="17"' id="bus_route_201_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_204" width="30"><a class="infolink" href="decktv.html?route=204&amp;routeid=bus_route_204&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 204</a></td><td align="center" class='width="17"' id="bus_route_204_suspended">   </td><td align="center" class='width="17"' id="bus_route_204_alert">   </td><td align="center" class='width="17"' id="bus_route_204_detour">   </td><td align="center" class='width="17"' id="bus_route_204_advisory">   </td><td align="center" class='width="17"' id="bus_route_204_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_205" width="30"><a class="infolink" href="decktv.html?route=205&amp;routeid=bus_route_205&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 205</a></td><td align="center" class='width="17"' id="bus_route_205_suspended">   </td><td align="center" class='width="17"' id="bus_route_205_alert">   </td><td align="center" class='width="17"' id="bus_route_205_detour">   </td><td align="center" class='width="17"' id="bus_route_205_advisory">   </td><td align="center" class='width="17"' id="bus_route_205_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_206" width="30"><a class="infolink" href="decktv.html?route=206&amp;routeid=bus_route_206&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 206</a></td><td align="center" class='width="17"' id="bus_route_206_suspended">   </td><td align="center" class='width="17"' id="bus_route_206_alert">   </td><td align="center" class='width="17"' id="bus_route_206_detour">   </td><td align="center" class='width="17"' id="bus_route_206_advisory">   </td><td align="center" class='width="17"' id="bus_route_206_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_310" width="30"><a class="infolink" href="decktv.html?route=310&amp;routeid=bus_route_310&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> 310</a></td><td align="center" class='width="17"' id="bus_route_310_suspended">   </td><td align="center" class='width="17"' id="bus_route_310_alert">   </td><td align="center" class='width="17"' id="bus_route_310_detour">   </td><td align="center" class='width="17"' id="bus_route_310_advisory">   </td><td align="center" class='width="17"' id="bus_route_310_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_G" width="30"><a class="infolink" href="decktv.html?route=G&amp;routeid=bus_route_G&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> G</a></td><td align="center" class='width="17"' id="bus_route_G_suspended">   </td><td align="center" class='width="17"' id="bus_route_G_alert">   </td><td align="center" class='width="17"' id="bus_route_G_detour">   </td><td align="center" class='width="17"' id="bus_route_G_advisory">   </td><td align="center" class='width="17"' id="bus_route_G_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_J" width="30"><a class="infolink" href="decktv.html?route=J&amp;routeid=bus_route_J&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> J</a></td><td align="center" class='width="17"' id="bus_route_J_suspended">   </td><td align="center" class='width="17"' id="bus_route_J_alert">   </td><td align="center" class='width="17"' id="bus_route_J_detour">   </td><td align="center" class='width="17"' id="bus_route_J_advisory">   </td><td align="center" class='width="17"' id="bus_route_J_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_K" width="30"><a class="infolink" href="decktv.html?route=K&amp;routeid=bus_route_K&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> K</a></td><td align="center" class='width="17"' id="bus_route_K_suspended">   </td><td align="center" class='width="17"' id="bus_route_K_alert">   </td><td align="center" class='width="17"' id="bus_route_K_detour">   </td><td align="center" class='width="17"' id="bus_route_K_advisory">   </td><td align="center" class='width="17"' id="bus_route_K_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_L" width="30"><a class="infolink" href="decktv.html?route=L&amp;routeid=bus_route_L&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> L</a></td><td align="center" class='width="17"' id="bus_route_L_suspended">   </td><td align="center" class='width="17"' id="bus_route_L_alert">   </td><td align="center" class='width="17"' id="bus_route_L_detour">   </td><td align="center" class='width="17"' id="bus_route_L_advisory">   </td><td align="center" class='width="17"' id="bus_route_L_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_LUCY" width="30"><a class="infolink" href="decktv.html?route=LUCY&amp;routeid=bus_route_LUCY&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> LUCY</a></td><td align="center" class='width="17"' id="bus_route_LUCY_suspended">   </td><td align="center" class='width="17"' id="bus_route_LUCY_alert">   </td><td align="center" class='width="17"' id="bus_route_LUCY_detour">   </td><td align="center" class='width="17"' id="bus_route_LUCY_advisory">   </td><td align="center" class='width="17"' id="bus_route_LUCY_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_R" width="30"><a class="infolink" href="decktv.html?route=R&amp;routeid=bus_route_R&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> R</a></td><td align="center" class='width="17"' id="bus_route_R_suspended">   </td><td align="center" class='width="17"' id="bus_route_R_alert">   </td><td align="center" class='width="17"' id="bus_route_R_detour">   </td><td align="center" class='width="17"' id="bus_route_R_advisory">   </td><td align="center" class='width="17"' id="bus_route_R_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_H" width="30"><a class="infolink" href="decktv.html?route=H&amp;routeid=bus_route_H&amp;mode=Bus&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> H</a></td><td align="center" class='width="17"' id="bus_route_H_suspended">   </td><td align="center" class='width="17"' id="bus_route_H_alert">   </td><td align="center" class='width="17"' id="bus_route_H_detour">   </td><td align="center" class='width="17"' id="bus_route_H_advisory">   </td><td align="center" class='width="17"' id="bus_route_H_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="bus_route_XH" width="30"><a class="infolink" href="decktv.html?route=XH&amp;routeid=bus_route_XH&amp;mode=Bus&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> XH</a></td><td align="center" class='width="17"' id="bus_route_XH_suspended">   </td><td align="center" class='width="17"' id="bus_route_XH_alert">   </td><td align="center" class='width="17"' id="bus_route_XH_detour">   </td><td align="center" class='width="17"' id="bus_route_XH_advisory">   </td><td align="center" class='width="17"' id="bus_route_XH_transitview">   </td></tr> <tr>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="left" width="15">  </td>
+</tr> <tr>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="left" width="15">  </td>
+</tr> <tr>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="left" width="15">  </td>
+</tr> <tr>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="center" width="15">   </td>
+<td align="left" width="15">  </td>
+</tr> </table>
+</td>
+
+<br/><div style="float: left; width: 410px;"><h1 class="rr_status">Regional Rail Lines</h1><div><table width="440"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_apt" width="115"><a class="infolink" href="decktv.html?route=Airport&amp;routeid=rr_route_apt&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Airport</a></td><td align="center" class='width="17"' id="rr_route_apt_suspended">   </td><td align="center" class='width="17"' id="rr_route_apt_alert">   </td><td align="center" class='width="17"' id="rr_route_apt_detour">   </td><td align="center" class='width="17"' id="rr_route_apt_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_che" width="115"><a class="infolink" href="decktv.html?route=Chestnut Hill East&amp;routeid=rr_route_che&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Chestnut Hill East</a></td><td align="center" class='width="17"' id="rr_route_che_suspended">   </td><td align="center" class='width="17"' id="rr_route_che_alert">   </td><td align="center" class='width="17"' id="rr_route_che_detour">   </td><td align="center" class='width="17"' id="rr_route_che_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_chw" width="115"><a class="infolink" href="decktv.html?route=Chestnut Hill West&amp;routeid=rr_route_chw&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Chestnut Hill West</a></td><td align="center" class='width="17"' id="rr_route_chw_suspended">   </td><td align="center" class='width="17"' id="rr_route_chw_alert">   </td><td align="center" class='width="17"' id="rr_route_chw_detour">   </td><td align="center" class='width="17"' id="rr_route_chw_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_cyn" width="115"><a class="infolink" href="decktv.html?route=Cynwyd&amp;routeid=rr_route_cyn&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Cynwyd</a></td><td align="center" class='width="17"' id="rr_route_cyn_suspended">   </td><td align="center" class='width="17"' id="rr_route_cyn_alert">   </td><td align="center" class='width="17"' id="rr_route_cyn_detour">   </td><td align="center" class='width="17"' id="rr_route_cyn_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_fxc" width="115"><a class="infolink" href="decktv.html?route=Fox Chase&amp;routeid=rr_route_fxc&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Fox Chase</a></td><td align="center" class='width="17"' id="rr_route_fxc_suspended">   </td><td align="center" class='width="17"' id="rr_route_fxc_alert">   </td><td align="center" class='width="17"' id="rr_route_fxc_detour">   </td><td align="center" class='width="17"' id="rr_route_fxc_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_landdoy" width="115"><a class="infolink" href="decktv.html?route=Lansdale/Doylestown&amp;routeid=rr_route_landdoy&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Lansdale/Doylestown</a></td><td align="center" class='width="17"' id="rr_route_landdoy_suspended">   </td><td align="center" class='width="17"' id="rr_route_landdoy_alert">   </td><td align="center" class='width="17"' id="rr_route_landdoy_detour">   </td><td align="center" class='width="17"' id="rr_route_landdoy_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_nor" width="115"><a class="infolink" href="decktv.html?route=Manayunk/Norristown&amp;routeid=rr_route_nor&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Manayunk/Norristown</a></td><td align="center" class='width="17"' id="rr_route_nor_suspended">   </td><td align="center" class='width="17"' id="rr_route_nor_alert">   </td><td align="center" class='width="17"' id="rr_route_nor_detour">   </td><td align="center" class='width="17"' id="rr_route_nor_advisory">   </td></tr></table></td> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_med" width="115"><a class="infolink" href="decktv.html?route=Media/Elwyn&amp;routeid=rr_route_med&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Media/Elwyn</a></td><td align="center" class='width="17"' id="rr_route_med_suspended">   </td><td align="center" class='width="17"' id="rr_route_med_alert">   </td><td align="center" class='width="17"' id="rr_route_med_detour">   </td><td align="center" class='width="17"' id="rr_route_med_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_pao" width="115"><a class="infolink" href="decktv.html?route=Paoli/Thorndale&amp;routeid=rr_route_pao&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Paoli/Thorndale</a></td><td align="center" class='width="17"' id="rr_route_pao_suspended">   </td><td align="center" class='width="17"' id="rr_route_pao_alert">   </td><td align="center" class='width="17"' id="rr_route_pao_detour">   </td><td align="center" class='width="17"' id="rr_route_pao_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_trent" width="115"><a class="infolink" href="decktv.html?route=Trenton&amp;routeid=rr_route_trent&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Trenton</a></td><td align="center" class='width="17"' id="rr_route_trent_suspended">   </td><td align="center" class='width="17"' id="rr_route_trent_alert">   </td><td align="center" class='width="17"' id="rr_route_trent_detour">   </td><td align="center" class='width="17"' id="rr_route_trent_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_warm" width="115"><a class="infolink" href="decktv.html?route=Warminster&amp;routeid=rr_route_warm&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Warminster</a></td><td align="center" class='width="17"' id="rr_route_warm_suspended">   </td><td align="center" class='width="17"' id="rr_route_warm_alert">   </td><td align="center" class='width="17"' id="rr_route_warm_detour">   </td><td align="center" class='width="17"' id="rr_route_warm_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_wilm" width="115"><a class="infolink" href="decktv.html?route=Wilmington/Newark&amp;routeid=rr_route_wilm&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Wilmington/Newark</a></td><td align="center" class='width="17"' id="rr_route_wilm_suspended">   </td><td align="center" class='width="17"' id="rr_route_wilm_alert">   </td><td align="center" class='width="17"' id="rr_route_wilm_detour">   </td><td align="center" class='width="17"' id="rr_route_wilm_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_wtren" width="115"><a class="infolink" href="decktv.html?route=West Trenton&amp;routeid=rr_route_wtren&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> West Trenton</a></td><td align="center" class='width="17"' id="rr_route_wtren_suspended">   </td><td align="center" class='width="17"' id="rr_route_wtren_alert">   </td><td align="center" class='width="17"' id="rr_route_wtren_detour">   </td><td align="center" class='width="17"' id="rr_route_wtren_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_gc" width="115"><a class="infolink" href="decktv.html?route=Glenside Combined&amp;routeid=rr_route_gc&amp;mode=Regional Rail&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Glenside Combined</a></td><td align="center" class='width="17"' id="rr_route_gc_suspended">   </td><td align="center" class='width="17"' id="rr_route_gc_alert">   </td><td align="center" class='width="17"' id="rr_route_gc_detour">   </td><td align="center" class='width="17"' id="rr_route_gc_advisory">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div><div style="float: left; width: 275px;"><h1 class="trolley_status">Trolley Lines</h1><div><table width="265"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_10" width="50"><a class="infolink" href="decktv.html?route=10&amp;routeid=trolley_route_10&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 10</a></td><td align="center" class='width="17"' id="trolley_route_10_suspended">   </td><td align="center" class='width="17"' id="trolley_route_10_alert">   </td><td align="center" class='width="17"' id="trolley_route_10_detour">   </td><td align="center" class='width="17"' id="trolley_route_10_advisory">   </td><td align="center" class='width="17"' id="trolley_route_10_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_11" width="50"><a class="infolink" href="decktv.html?route=11&amp;routeid=trolley_route_11&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 11</a></td><td align="center" class='width="17"' id="trolley_route_11_suspended">   </td><td align="center" class='width="17"' id="trolley_route_11_alert">   </td><td align="center" class='width="17"' id="trolley_route_11_detour">   </td><td align="center" class='width="17"' id="trolley_route_11_advisory">   </td><td align="center" class='width="17"' id="trolley_route_11_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_13" width="50"><a class="infolink" href="decktv.html?route=13&amp;routeid=trolley_route_13&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 13</a></td><td align="center" class='width="17"' id="trolley_route_13_suspended">   </td><td align="center" class='width="17"' id="trolley_route_13_alert">   </td><td align="center" class='width="17"' id="trolley_route_13_detour">   </td><td align="center" class='width="17"' id="trolley_route_13_advisory">   </td><td align="center" class='width="17"' id="trolley_route_13_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_15" width="50"><a class="infolink" href="decktv.html?route=15&amp;routeid=trolley_route_15&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N">Rt 15</a></td><td align="center" class='width="17"' id="trolley_route_15_suspended">   </td><td align="center" class='width="17"' id="trolley_route_15_alert">   </td><td align="center" class='width="17"' id="trolley_route_15_detour">   </td><td align="center" class='width="17"' id="trolley_route_15_advisory">   </td><td align="center" class='width="17"' id="trolley_route_15_transitview">   </td></tr></table></td> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_34" width="50"><a class="infolink" href="decktv.html?route=34&amp;routeid=trolley_route_34&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 34</a></td><td align="center" class='width="17"' id="trolley_route_34_suspended">   </td><td align="center" class='width="17"' id="trolley_route_34_alert">   </td><td align="center" class='width="17"' id="trolley_route_34_detour">   </td><td align="center" class='width="17"' id="trolley_route_34_advisory">   </td><td align="center" class='width="17"' id="trolley_route_34_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_36" width="50"><a class="infolink" href="decktv.html?route=36&amp;routeid=trolley_route_36&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 36</a></td><td align="center" class='width="17"' id="trolley_route_36_suspended">   </td><td align="center" class='width="17"' id="trolley_route_36_alert">   </td><td align="center" class='width="17"' id="trolley_route_36_detour">   </td><td align="center" class='width="17"' id="trolley_route_36_advisory">   </td><td align="center" class='width="17"' id="trolley_route_36_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_101" width="50"><a class="infolink" href="decktv.html?route=101&amp;routeid=trolley_route_101&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 101</a></td><td align="center" class='width="17"' id="trolley_route_101_suspended">   </td><td align="center" class='width="17"' id="trolley_route_101_alert">   </td><td align="center" class='width="17"' id="trolley_route_101_detour">   </td><td align="center" class='width="17"' id="trolley_route_101_advisory">   </td><td align="center" class='width="17"' id="trolley_route_101_transitview">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="trolley_route_102" width="50"><a class="infolink" href="decktv.html?route=102&amp;routeid=trolley_route_102&amp;mode=Trolley&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N">Rt 102</a></td><td align="center" class='width="17"' id="trolley_route_102_suspended">   </td><td align="center" class='width="17"' id="trolley_route_102_alert">   </td><td align="center" class='width="17"' id="trolley_route_102_detour">   </td><td align="center" class='width="17"' id="trolley_route_102_advisory">   </td><td align="center" class='width="17"' id="trolley_route_102_transitview">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div><br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><div style="float: left; width: 344px;"><h1 class="mfl_status">Market/Frankford Line</h1><div><table width="344"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_mfl" width="150"><a class="infolink" href="decktv.html?route=Market/ Frankford Line&amp;routeid=rr_route_mfl&amp;mode=Market/ Frankford&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Market/ Frankford Line</a></td><td align="center" class='width="17"' id="rr_route_mfl_suspended">   </td><td align="center" class='width="17"' id="rr_route_mfl_alert">   </td><td align="center" class='width="17"' id="rr_route_mfl_detour">   </td><td align="center" class='width="17"' id="rr_route_mfl_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_mfo" width="150"><a class="infolink" href="decktv.html?route=Market Frankford Owl&amp;routeid=rr_route_mfo&amp;mode=Market/ Frankford&amp;issuspended=N&amp;isdetour=Y&amp;btnclicked=alert&amp;isSnow=N"> Market Frankford Owl</a></td><td align="center" class='width="17"' id="rr_route_mfo_suspended">   </td><td align="center" class='width="17"' id="rr_route_mfo_alert">   </td><td align="center" class='width="17"' id="rr_route_mfo_detour">   </td><td align="center" class='width="17"' id="rr_route_mfo_advisory">   </td><td align="center" class='width="17"' id="rr_route_mfo_transitview">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div><div style="float: left; width: 344px;"><h1 class="bsl_status">Broad Street Line</h1><div><table width="344"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_bsl" width="150"><a class="infolink" href="decktv.html?route=Broad Street Line&amp;routeid=rr_route_bsl&amp;mode=Broad Street Line&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Broad Street Line</a></td><td align="center" class='width="17"' id="rr_route_bsl_suspended">   </td><td align="center" class='width="17"' id="rr_route_bsl_alert">   </td><td align="center" class='width="17"' id="rr_route_bsl_detour">   </td><td align="center" class='width="17"' id="rr_route_bsl_advisory">   </td></tr> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_bso" width="150"><a class="infolink" href="decktv.html?route=Broad Street Line Owl&amp;routeid=rr_route_bso&amp;mode=Broad Street Line&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Broad Street Line Owl</a></td><td align="center" class='width="17"' id="rr_route_bso_suspended">   </td><td align="center" class='width="17"' id="rr_route_bso_alert">   </td><td align="center" class='width="17"' id="rr_route_bso_detour">   </td><td align="center" class='width="17"' id="rr_route_bso_advisory">   </td><td align="center" class='width="17"' id="rr_route_bso_transitview">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div><br/><br/><br/><br/><br/><div style="float: left; width: 344px;"><h1 class="nhsl_status">Norristown High Speed Line</h1><div><table width="344"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="rr_route_nhsl" width="180"><a class="infolink" href="decktv.html?route=Norristown High Speed Line&amp;routeid=rr_route_nhsl&amp;mode=Norristown High Speed Line&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> Norristown High Speed Line</a></td><td align="center" class='width="17"' id="rr_route_nhsl_suspended">   </td><td align="center" class='width="17"' id="rr_route_nhsl_alert">   </td><td align="center" class='width="17"' id="rr_route_nhsl_detour">   </td><td align="center" class='width="17"' id="rr_route_nhsl_advisory">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div><div style="float: left; width: 344px;"><h1 class="cct_status">CCT</h1><div><table width="344"><tr> <td align="left" valign="top" width="205">
+<table border="0" id="status">
+<thead></thead> <tr>
+<!-- Status Links --> <!-- Route Number -->
+<td align="left" class="" id="cct" width="150"><a class="infolink" href="decktv.html?route=CCT&amp;routeid=cct&amp;mode=CCT&amp;issuspended=N&amp;isdetour=N&amp;btnclicked=alert&amp;isSnow=N"> CCT</a></td><td align="center" class="" id="cct_suspended" width="17">   </td><td align="center" class="" id="cct_alert" width="17">   </td><td align="center" class="" id="cct_detour" width="17">   </td><td align="center" class="" id="cct_advisory" width="17">   </td></tr> </table>
+</td>
+</tr>
+</table></div></div> <script>
+		$('#system_status_link').hide();
+		var sched_route_id = getUrlVars()["sched_route_id"];
+		var alert_type = getUrlVars()["alert_type"];
+		var WEATHERDESCRIPTION ='<b>Weather Related Detours:</b> Regular route changes caused by extreme weather conditions (snow, ice, heavy rain, and flooding)';
+		var weatherCount =0;
+		var weatherIcon ='weather.png';
+		var weatherIconLarger ='weather32x32.png';
+		var transitviewIcon ='DropPin.png';
+		var DELAY = 60000;
+		var IDLECOUNT = 300;
+		var TIMEOUTCOUNT = 2;
+		var  count = IDLECOUNT; // Global variable keeps track of how many seconds page is idle
+		var notice = null;
+		var countdown;  // Global variable  for idle countdown
+		var getDataInterval; // Global variable for interval of refreshing data
+		var timesToTimeout = 0;  // Global variable for how many times to loop before a timeout
+		if (/MSIE (\d+\.\d+);/.test(navigator.userAgent))
+				var ieversion=new Number(RegExp.$1);
+		
+		$(document).ready(function() {
+		
+				// Initialize checking for idleness of page 
+				idle();
+				
+				// Reset timer if key is pressed
+				$(document).keypress(function(e){
+					idle();
+					if(notice != null)
+					{
+						$().toastmessage('removeToast', notice);
+						notice= null;
+						getDataInterval=setInterval("getdata('')",DELAY);
+						idle();
+					}
+				});
+				
+				$(document).mousemove(function(e){
+					idle();
+					if(notice != null)
+					{
+						$().toastmessage('removeToast', notice);
+						notice= null;
+						getDataInterval=setInterval("getdata('')",DELAY);
+						getdata('');
+						idle();
+					}
+				});
+
+			function idle()
+			{
+				clearInterval(countdown);
+				count = IDLECOUNT;
+				countdown = setInterval(function(){
+					//$("#countdown").html(count + " seconds remaining!");
+					if (count == 0) {
+						clearInterval(getDataInterval);
+				if(notice == null)
+				{
+					 notice=	$().toastmessage('showToast', {
+             text     : '<font face="verdana" >This page has been idle for 5 minutes. To receive updated information please move your mouse or press a key on your keyboard.</font>',
+             sticky   : true,
+             position : 'middle-center',
+             type     : 'notice',
+			 close    : function () {getDataInterval=setInterval("getdata('')",DELAY);
+						notice= null;
+						idle();}
+           
+        });
+	  }
+						
+						clearInterval(countdown);
+					}
+					count--;
+				}, 1000);
+			}		
+			
+			
+			// Set Timeout time for API failure before switch to Manual JSON
+			$.ajaxSetup({
+				timeout: 10000
+			});
+			
+			// Check if i.e. 7 and adjust FancyBox
+			
+			if(navigator.appName =="Microsoft Internet Explorer" && ieversion ==7)
+			{
+			//FancyBox initialize for every link
+				$("infolink").fancybox({
+					'width'				: 830,
+					'height'			: 450,
+					'autoScale'			: false,
+					'transitionIn'		: 'fade',
+					'transitionOut'		: 'fade',
+					'type'				: 'iframe',
+					'titleShow'         : true,
+					'autoDimensions'    :false
+				
+				});
+			}
+			else
+			{	
+				//FancyBox initialize for every link
+				$("infolink").fancybox({
+					'width'				: 830,
+					'height'			: 420,
+					'autoScale'			: false,
+					'transitionIn'		: 'fade',
+					'transitionOut'		: 'fade',
+					'type'				: 'iframe',
+					'titleShow'         : true,
+					'autoDimensions'    :false
+				
+				});
+			
+			}
+			
+			// Transitview Fancy Box Init
+			
+			if(navigator.appName =="Microsoft Internet Explorer" && ieversion ==7)
+			{
+			//FancyBox initialize for every link
+				$("a.transitview").fancybox({
+					'width'				: 850,
+					'height'			: 420,
+					'autoScale'			: false,
+					'transitionIn'		: 'fade',
+					'transitionOut'		: 'fade',
+					'type'				: 'iframe',
+					'titleShow'         : true,
+					'autoDimensions'    :false
+				
+				});
+			}
+			else
+			{	
+				//FancyBox initialize for every link
+				$("a.transitview").fancybox({
+					'width'				: 850,
+					'height'			: 420,
+					'autoScale'			: false,
+					'transitionIn'		: 'fade',
+					'transitionOut'		: 'fade',
+					'type'				: 'iframe',
+					'titleShow'         : true,
+					'autoDimensions'    :false
+				
+				});
+			
+			}
+			
+			// If the browser resizes while loading is in progress close and reinitialize  loader
+			$(window).resize(function() {
+					if($('#jquery-loader-background').css("z-index") == 30000)
+					{
+					$.loader('close'); 
+						$.loader({
+						className:"blue-with-image-2",
+						content:''
+					});
+					}
+					
+			});
+			
+			//initialize loader
+			$.loader({
+						className:"blue-with-image-2",
+						content:''
+					});
+					
+				// Get information for tables and initialize 	
+				getdata('init');
+				// Setup page to retrieve data in intevals
+				 getDataInterval=setInterval("getdata('')",DELAY);
+				
+				// Toggle bus section to open and close
+				$('.bus_status').click(function() {
+					$('#BusDiv').toggle('slow', function() {
+						// Animation complete.
+					});
+					
+				});
+				
+				// Tell user how to minimize/maximize bus section
+				$('.bus_status').hover(function() {
+					//Show link at end:
+					//alert($('#system_status_link').html());
+					$('#system_status_link').show();
+					if($("#BusDiv").is(':visible'))
+						$(".bus_status").ShowBubblePopup({ innerHtml: 'Click to minimize Bus Information',themeName: 	'blue',themePath: 	'images/jquerybubblepopup-theme' }, true);
+					else
+					$(".bus_status").ShowBubblePopup({ innerHtml: 'Click to maximize Bus Information',themeName: 	'blue',themePath: 	'images/jquerybubblepopup-theme' }, true);
+				
+				 });
+				
+			});
+			
+		
+				// Load information and icons into tables
+				function getdata(run) 
+				{
+					try
+					{
+						
+						
+						if(run!='init' && navigator.appName =="Microsoft Internet Explorer" &&ieversion < 9)
+						{
+							$('#updating').html('<span class="updatewords">Updating</span><img  class="updating" src="images/updating.gif" alt="Updating" title="Updating Information">');
+							
+						}
+						else if (run!='init')
+						$('#updating').html('Updating<img  class="updating" src="images/updating.gif" alt="Updating" title="Updating Information">');
+						
+						var count = 0;
+						var jqxhr =	$.getJSON("http://www3.septa.org/api/Alerts/?callback=?",
+						{
+						   dataType:"jsonp",
+						},
+                  function (json)
+                  {
+						
+						   var obj = jQuery.parseJSON(json);
+    
+						   if (obj !=null)
+						   {
+    						    //console.log("Failed to open: " + url + ", " + JSON.stringify(json, null, 4) );
+
+							if (obj.error !=null)
+							   $().toastmessage('showSuccessToast',obj.error);
+						   }
+						   else
+						   {
+						   }
+
+   						   $.each(json, function(i,item)
+						   {
+						   
+						   if (item.route_id=="generic")
+						   {
+							if (item.isalert=="Y")
+							{
+						 		// Grab Generic message
+								var jqxhrSystemMessage = $.getJSON("http://www3.septa.org/api/Alerts/get_alert_data.php?callback=?&route_id=generic", function(alertData) {
+										
+								$.each(alertData, function(i,item)
+								{
+									if (item.route_id =="generic" &&  (item.current_message != $('#genericMessages').html()))
+									{
+										$('#genericMessages').hide();
+										$('#genericMessages').html(item.current_message);
+										$('#genericMessages').fadeIn("slow");
+									}
+
+								});
+							});
+											
+						   }
+						   else
+						   {
+							if( '' != $('#genericMessages').html())
+							{
+								$('#genericMessages').hide();
+								$('#genericMessages').html('');
+								$('#genericMessages').fadeIn("slow");
+							}
+						   }
+						}
+								 
+								 
+							if($("#" + item.route_id).length > 0) {
+								//it does exist
+															 
+								 
+								//Do not show icons if suspended
+								if(item.issuppend=="N")
+									$('#'+item.route_id+'_suspended').html('&nbsp;&nbsp;&nbsp;');
+									
+								if(item.isadvisory=="No" || item.issuppend=="Y")
+									$('#'+item.route_id+'_advisory').html('&nbsp;&nbsp;&nbsp;');
+									
+								if(item.isdetour=="N" || item.issuppend=="Y")
+									$('#'+item.route_id+'_detour').html('&nbsp;&nbsp;&nbsp;');
+									
+								if(item.isalert=="N" || item.issuppend=="Y")
+									$('#'+item.route_id+'_alert').html('&nbsp;&nbsp;&nbsp;');
+									
+								if(item.issuppend=="Y")
+									$('#'+item.route_id+'_transitview').html('&nbsp;&nbsp;&nbsp;');
+									
+								if(item.route_id !='generic')
+								{	
+									$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("isSnow=Y", "isSnow=N"));
+									// Place icons in page
+									if(item.issuppend=="Y")
+									{
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("issuspended=N", "issuspended=Y")); 	
+										
+										if($('#'+item.route_id+'_suspended').html() != '<a class="infolink suspended" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=suspended&www3status=up"><img  class =\"infolink\"src=\"images/suspended-icon.png\" alt=\"Line Suspended\" title=\"Line Suspended\"></a>')
+											$('#'+item.route_id+'_suspended').html('<a class="infolink suspended" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=suspended&www3status=up"><img  class =\"infolink\"src=\"images/suspended-icon.png\" alt=\"Line Suspended\" title=\"Line Suspended\"></a>');
+									}
+									if(item.issuppend=="N")
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("issuspended=Y", "issuspended=N")); 
+									if(item.isalert=="Y" && item.issuppend=="N")
+									{
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=detour", "btnclicked=alert"));
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=advisory", "btnclicked=alert"));
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=alert"));
+										
+										if($('#'+item.route_id+'_alert').html()!='<a class="infolink alert" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=alert&www3status=up"><img  class =\"infolink\" src=\"images/alert-icon.png\" alt=\"Service Alert\" title=\"Service Alert\"></a>')
+											$('#'+item.route_id+'_alert').html('<a class="infolink alert" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=alert&www3status=up"><img  class =\"infolink\" src=\"images/alert-icon.png\" alt=\"Service Alert\" title=\"Service Alert\"></a>');
+									}
+									if(item.isdetour=="Y" && item.issuppend=="N" )
+									{
+										
+										if(item.isalert=="N")
+										{
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=detour"));
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=advisory", "btnclicked=detour"));
+										}
+										if($('#'+item.route_id+'_detour').html() != '<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&www3status=up"><img  class =\"infolink\" src=\"images/detour-icon.png\" alt=\"Detour\" title=\"Detour\"></a>')
+											$('#'+item.route_id+'_detour').html('<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&www3status=up"><img  class =\"infolink\" src=\"images/detour-icon.png\" alt=\"Detour\" title=\"Detour\"></a>');
+									}
+									if(item.isdetour=="Y" && item.issuppend=="N" && item.isSnow =='Y')
+									{
+										var clicked ="alert";
+										weatherCount++;
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("isSnow=N", "isSnow=Y"));
+										if(item.isalert=="N")
+										{
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=detour"));
+											clicked ='detour';
+										}
+									
+										if($('#'+item.route_id+'_detour').html() != '<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&amp;routeid='+item.route_id+'&amp;mode='+item.mode+'&amp;issuspended='+item.issuppend+'&amp;isdetour='+item.isdetour+'&amp;btnclicked=detour&amp;isSnow=Y&amp;www3status=up"><img class=\"infolink\" src=\"images/'+weatherIcon+'\" alt=\"Detour\" title=\"Detour Snow\"></a>')
+										{
+											$('#'+item.route_id+'_detour').html('<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&isSnow=Y&www3status=up"><img class=\"infolink\" src=\"images/'+weatherIcon+'\" alt=\"Detour\" title=\"Detour Snow\"></a>');
+										}
+									}
+									if(item.isadvisory=="Yes" && item.issuppend=="N")
+									{
+										if(item.isalert=="N")
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=advisory"));
+										if(item.isdetour=="N")
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=detour", "btnclicked=advisory"));
+										if($('#'+item.route_id+'_advisory').html() != '<a class="infolink advisory" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=advisory&www3status=up"><img  class =\"infolink\" src=\"images/advisory-icon.png\" alt=\"Service Advisory\" title=\"Service Advisory\"></a>')
+											$('#'+item.route_id+'_advisory').html('<a class="infolink advisory" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=advisory&www3status=up"><img  class =\"infolink\" src=\"images/advisory-icon.png\" alt=\"Service Advisory\" title=\"Service Advisory\"></a>');
+									}
+								
+								}
+								
+								// TransitView Addon
+								if(item.issuppend=="N")
+								{
+           								<!-- Triggered when TransitView icon (the pink one with the black dot) is clicked directly.  If alert, detour, or advisory is clicked, this won't be called -->
+									if($('#'+item.route_id+'_transitview').html() != '<a class="transitview" href="map.html?route='+ item.route_name+'&amp;mode='+item.mode+'&amp;isdetour='+item.isdetour+'&amp;www3status=up"><img class=\"transitview\" src=\"images/'+transitviewIcon+'\" alt=\"Transitview\" title=\"Transitview\"></a>')
+									{
+										$('#'+item.route_id+'_transitview').html('<a class="transitview" href="map.html?route='+ item.route_name+'&mode='+item.mode+'&isdetour='+item.isdetour+'&routeDesc='+item.description +'&www3status=up"><img class=\"transitview\" src=\"images/'+transitviewIcon+'\" alt=\"Transitview\" title=\"Transitview\"></a>');
+									}
+								}
+								
+								}
+								
+							});
+							
+							if(weatherCount > 0)
+							{
+							if($('#weatherMessages').html() !='<img src=\"images/'+weatherIconLarger+'\" alt=\"Detour\" title=\"Detour Snow\"> '+WEATHERDESCRIPTION)
+									{
+								$('#weatherMessages').html('<img src=\"images/'+weatherIconLarger+'\" alt=\"Detour\" title=\"Detour Snow\"> '+WEATHERDESCRIPTION);
+								weatherCount=0;
+								}
+								else
+									weatherCount=0;
+							}
+							else if(weatherCount == 0)
+							{
+								$('#weatherMessages').html('');
+							}
+							// Let decktv.html know if primary data source is up or down
+							$("#statusarea a").each(function() {
+								$(this).attr("href",$(this).attr("href").replace("www3status=down", "www3status=up"));
+									var _href = $(this).attr("href"); 
+									if($(this).attr("href").substring(($(this).attr("href").length - 14),$(this).attr("href").length) !='&www3status=up')
+									$(this).attr("href", _href + '&www3status=up');
+								});
+								
+							
+							if(navigator.appName =="Microsoft Internet Explorer" && ieversion ==7)
+							{
+								//FancyBox initialize for every link
+								$("a.infolink").fancybox({
+									'width'				: 830,
+									'height'			: 450,
+									'autoScale'			: false,
+									'transitionIn'		: 'fade',
+									'transitionOut'		: 'fade',
+									'type'				: 'iframe',
+									'titleShow'         : true,
+									'autoDimensions'    :false
+				
+								});
+							}
+							else
+							{	
+								//FancyBox initialize for every link
+								$("a.infolink").fancybox({
+									'width'				: 830,
+									'height'			: 420,
+									'autoScale'			: false,
+									'transitionIn'		: 'fade',
+									'transitionOut'		: 'fade',
+									'type'				: 'iframe',
+									'titleShow'         : true,
+									'autoDimensions'    :false
+				
+								});
+			
+							}
+							
+							if(navigator.appName =="Microsoft Internet Explorer" && ieversion ==7)
+							{
+								//FancyBox initialize for every link
+								$("a.transitview").fancybox({
+									'width'				: 850,
+									'height'			: 420,
+									'autoScale'			: false,
+									'transitionIn'		: 'fade',
+									'transitionOut'		: 'fade',
+									'type'				: 'iframe',
+									'titleShow'         : true,
+									'autoDimensions'    :false
+				
+								});
+							}
+							else
+							{	
+								//FancyBox initialize for every link
+								$("a.transitview").fancybox({
+									'width'				: 850,
+									'height'			: 420,
+									'autoScale'			: false,
+									'transitionIn'		: 'fade',
+									'transitionOut'		: 'fade',
+									'type'				: 'iframe',
+									'titleShow'         : true,
+									'autoDimensions'    :false
+				
+								});
+			
+							}
+							
+						});
+					}
+					catch(err)
+					{
+						$.loader('close'); 
+						alert('Could Not update'+err.description);
+					}
+						// if initial run show bubble popup for a short time and fade in main area
+						if(run=='init')
+						{
+						
+							jqxhr.complete(function(json){
+							try
+							{
+							
+								
+								$.loader('close'); 
+							}
+							catch(err)
+							{
+								$.loader('close'); 
+							}
+								$('#statusarea').fadeIn('slow', function() {
+									// Animation complete
+									if(sched_route_id !='' && alert_type!="")
+									{
+										$('#'+sched_route_id+'_'+alert_type +' a' ).click();
+									}
+								});	
+								
+								$(".bus_status").CreateBubblePopup({
+											innerHtml: $("#BusDiv").is(':visible') ? "Click to minimize Bus Information" : "Click to maximize Bus Information" ,
+											
+											innerHtmlStyle: {
+															color:'#333333', 
+															'text-align':'center'
+															},
+											
+											themeName: 	'blue',
+											themePath: 	'images/jquerybubblepopup-theme'
+									  });
+							$('.bus_status').ShowBubblePopup();
+							$('.bus_status').FreezeBubblePopup();	
+							var t=setTimeout("$('.bus_status').HideBubblePopup()",3000);
+							
+							});
+						}
+						else
+						{
+							jqxhr.complete(function(){
+								$('#updating').html('');
+								$('#statusarea').fadeIn('slow', function() {
+									// Animation complete
+								});	
+							});
+						}
+						
+						jqxhr.success(function(){
+								timesToTimeout =0;
+							});
+						
+						
+						
+						
+						// In case of a API timeout
+						
+						try
+						{
+							jqxhr.error(function() { 
+							if(timesToTimeout > TIMEOUTCOUNT)
+							{
+								timesToTimeout +=1;
+								$().toastmessage('showToast', {
+									text     : 'timesToTimeout - timeoutcount calling getdata.',
+									sticky   : false,
+									position : 'top-right',
+									type     : 'notice'
+			 
+           
+        });
+								getdata('');
+								return;
+							}
+							
+							if(run!='init' && navigator.appName =="Microsoft Internet Explorer" &&ieversion < 9)
+							{
+								$('#updating').html('<span class="updatewords">Updating</span><img  class="updating" src="images/updating.gif" alt="Updating" title="Updating Information">');
+							
+							}
+							else if (run!='init')
+								$('#updating').html('Updating<img  class="updating" src="images/updating.gif" alt="Updating" title="Updating Information">');
+								
+								var jqxhrlocal = $.getJSON("http://www3.septa.org/api/Alerts/?callback=?",
+								{
+								   dataType: "jsonp",
+								},
+								function (alertData) 
+								{
+
+								   $.each(alertData, function(i,item)
+                                                                   {
+
+									if(item.route_id=="generic")
+									{
+										
+										if(item.isalert=="Y")
+										{
+											
+											//var jqxhr2 = $.getJSON("JSON/get_alert_data.json", function(alertInfo) {
+											var jqxhr2 = $.getJSON("http://www3.septa.org/api/Alerts/get_alert_data.php?req1=all", function(alertInfo) {
+											
+												$.each(alertInfo, function(y,item2){
+												
+													if(item2.route_id =="generic" &&  (item2.current_message != $('#genericMessages').html()))
+													{	
+														$('#genericMessages').hide();
+														$('#genericMessages').html(item2.current_message);
+														$('#genericMessages').fadeIn("slow");
+													}
+
+												});
+											});
+											jqxhr2.error(function() { 
+											alert('Cannot find system-wide message!');
+											});
+										
+										}
+										else
+										{
+											if( '' != $('#genericMessages').html())
+											{
+												$('#genericMessages').hide();
+												$('#genericMessages').html('');
+												$('#genericMessages').fadeIn("slow");
+											}
+										}
+									}
+									//Do not show icons if suspended
+									if(item.issuppend=="N")
+										$('#'+item.route_id+'_suspended').html('&nbsp;&nbsp;&nbsp;');
+									if(item.isadvisory=="No" || item.issuppend=="Y")
+										$('#'+item.route_id+'_advisory').html('&nbsp;&nbsp;&nbsp;');
+									if(item.isdetour=="N" || item.issuppend=="Y")
+										$('#'+item.route_id+'_detour').html('&nbsp;&nbsp;&nbsp;');
+									if(item.isalert=="N" || item.issuppend=="Y")
+										$('#'+item.route_id+'_alert').html('&nbsp;&nbsp;&nbsp;');
+										
+								if(item.route_id !='generic')
+								{	
+									$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("isSnow=Y", "isSnow=N"));
+									// Place icons in page
+									if(item.issuppend=="Y")
+									{
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("issuspended=N", "issuspended=Y")); 	
+										if($('#'+item.route_id+'_suspended').html() != '<a class="infolink suspended" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=suspended&www3status=down"><img  class =\"infolink\"src=\"images/suspended-icon.png\" alt=\"Line Suspended\" title=\"Line Suspended\"></a>')
+											$('#'+item.route_id+'_suspended').html('<a class="infolink suspended" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=suspended&www3status=down"><img  class =\"infolink\"src=\"images/suspended-icon.png\" alt=\"Line Suspended\" title=\"Line Suspended\"></a>');
+									}
+									if(item.issuppend=="N")
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("issuspended=Y", "issuspended=N")); 
+									if(item.isalert=="Y" && item.issuppend=="N")
+									{
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=detour", "btnclicked=alert"));
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=advisory", "btnclicked=alert"));
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=alert"));
+										if($('#'+item.route_id+'_alert').html()!='<a class="infolink alert" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=alert&www3status=down"><img  class =\"infolink\" src=\"images/alert-icon.png\" alt=\"Service Alert\" title=\"Service Alert\"></a>')
+											$('#'+item.route_id+'_alert').html('<a class="infolink alert" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=alert&www3status=down"><img class =\"infolink\" src=\"images/alert-icon.png\" alt=\"Service Alert\" title=\"Service Alert\"></a>');
+									}
+									if(item.isdetour=="Y" && item.issuppend=="N" && item.isSnow =='N')
+									{
+									
+										if(item.isalert=="N")
+										{
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=detour"));
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=advisory", "btnclicked=detour"));
+										}
+										if($('#'+item.route_id+'_detour').html() != '<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&isSnow=Y&www3status=down"><img  class =\"infolink\" src=\"images/'+weatherIcon+'\" alt=\"Detour\" title=\"Detour Snow\"></a>')
+											$('#'+item.route_id+'_detour').html('<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=detour"><img  class =\"infolink\" src=\"images/detour-icon.png\" alt=\"Detour\" title=\"Detour\"></a>');
+									}
+									if(item.isdetour=="Y" && item.issuppend=="N" && item.isSnow =='Y')
+									{
+										weatherCount++;
+										$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("isSnow=N", "isSnow=Y"));
+										if(item.isalert=="N")
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=detour"));
+										
+										if($('#'+item.route_id+'_detour').html() != '<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&isSnow=Y&www3status=down"><img  class =\"infolink\" src=\"images/'+weatherIcon+'\" alt=\"Detour\" title=\"Detour Snow\"></a>')
+											$('#'+item.route_id+'_detour').html('<a class="infolink detour" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=detour&isSnow=Y&www3status=down"><img  class =\"infolink\" src=\"images/'+weatherIcon+'\" alt=\"Detour\" title=\"Detour Snow\"></a>');
+									}
+									if(item.isadvisory=="Yes" && item.issuppend=="N")
+									{
+										if(item.isalert=="N")
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=alert", "btnclicked=advisory"));
+										if(item.isdetour=="N")
+											$('#'+item.route_id+' a').attr("href",$('#'+item.route_id+' a').attr("href").replace("btnclicked=detour", "btnclicked=advisory"));
+										if($('#'+item.route_id+'_advisory').html() != '<a class="infolink advisory" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&isdetour='+item.isdetour+'&btnclicked=advisory&www3status=down"><img  class =\"infolink\" src=\"images/advisory-icon.png\" alt=\"Service Advisory\" title=\"Service Advisory\"></a>')
+										$('#'+item.route_id+'_advisory').html('<a class="infolink advisory" href="decktv.html?route='+ item.route_name+'&routeid='+item.route_id+'&mode='+item.mode+'&issuspended='+item.issuppend+'&btnclicked=advisory"><img  class =\"infolink\" src=\"images/advisory-icon.png\" alt=\"Service Advisory\" title=\"Service Advisory\"></a>');
+									}
+									}
+									
+									});
+									
+									
+								if(weatherCount > 0)
+								{
+									if($('#weatherMessages').html() !='<img src=\"images/'+weatherIconLarger+'\" alt=\"Detour\" title=\"Detour Snow\"> '+WEATHERDESCRIPTION)
+									{
+										$('#weatherMessages').html('<img src=\"images/'+weatherIconLarger+'\" alt=\"Detour\" title=\"Detour Snow\"> '+WEATHERDESCRIPTION);
+										weatherCount=0;
+									}
+									else
+										weatherCount=0;
+								}
+								else if(weatherCount == 0)
+								{
+									$('#weatherMessages').html('');
+								}	
+								// Let decktv.html know if primary data source is up or down
+								$("#statusarea a").each(function() {
+								$(this).attr("href",$(this).attr("href").replace("www3status=up", "www3status=down"));
+									var _href = $(this).attr("href"); 
+									if($(this).attr("href").substring(($(this).attr("href").length - 16),$(this).attr("href").length) !='&www3status=down')
+									$(this).attr("href", _href + '&www3status=down');
+									
+								});
+
+							
+							
+								if(navigator.appName =="Microsoft Internet Explorer" && ieversion ==7)
+								{
+									//FancyBox initialize for every link
+									$("a.infolink").fancybox({
+										'width'				: 830,
+										'height'			: 450,
+										'autoScale'			: false,
+										'transitionIn'		: 'fade',
+										'transitionOut'		: 'fade',
+										'type'				: 'iframe',
+										'titleShow'         : true,
+										'autoDimensions'    :false
+				
+									});
+								}
+								else
+								{	
+									//FancyBox initialize for every link
+									$("a.infolink").fancybox({
+										'width'				: 830,
+										'height'			: 420,
+										'autoScale'			: false,
+										'transitionIn'		: 'fade',
+										'transitionOut'		: 'fade',
+										'type'				: 'iframe',
+										'titleShow'         : true,
+										'autoDimensions'    :false
+				
+									});
+			
+								}
+										});
+								
+
+
+							jqxhrlocal.complete(function(){
+								$('#updating').html('');
+								$('#statusarea').fadeIn('slow', function() {
+									// Animation complete
+									
+								
+								});	
+							});
+							// lOCAL json failure
+							jqxhrlocal.error(function() { 
+							/*$("#dialog-message").html('SEPTA Line status experiencing techincal difficulties.');
+							$("a.infolink").click(function(e) {
+								e.preventDefault();
+								//do other stuff when a click happens
+							});
+							
+								$( "#dialog-message" ).dialog({
+									modal: true,
+									width:400,
+									resizable:false,
+									draggable:false,
+									buttons: {
+										Ok: function() {
+											$( this ).dialog( "close" );
+										}
+									}
+								});*/
+									timesToTimeout =0;
+									$().toastmessage('showToast', {
+										text     : 'Attempting to retrieve information.',
+										sticky   : false,
+										position : 'top-right',
+										type     : 'notice'
+			 
+           
+									});
+		
+								
+							});				
+							});
+								}
+				catch(err)
+				{
+				
+				}
+			
+							
+			}
+function getIEVersionNumber() {
+    var ua = navigator.userAgent;
+    var MSIEOffset = ua.indexOf("MSIE ");
+    
+    if (MSIEOffset == -1) {
+        return 0;
+    } else {
+        return parseFloat(ua.substring(MSIEOffset + 5, ua.indexOf(";", MSIEOffset)));
+    }
+}		
+
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}	
+
+	
+			</script> <br/><br/><br/><br/><div id="system_status_link">What is <a href="http://www.septa.org/alert/system-status.html">System Status</a>?</div><br/>
+
+
+
+<div id="septa_footer">
+<h2><span class="ficons"><a href="/cs/chat/index.html"><img alt="Chat" src="/site/images/chat.gif"/></a> <a href="http://www.septa.org/rss/index.html"><img alt="RSS Feed" src="/site/images/rss.gif"/></a> <a href="http://bit.ly/septafb"><img alt="Facebook" src="/site/images/facebook.gif"/></a> <a href="http://www.twitter.com/septa"><img alt="Twitter" src="/site/images/twitter.gif"/></a> <a href="http://www.youtube.com/septainmotion"><img alt="YouTube" src="/site/images/youtube.gif"/></a> <a href="http://itunes.apple.com/us/podcast/inmotion-presented-by-septa/id372817726"><img alt="iTunes" src="/site/images/itunes.gif"/></a></span><span>Contact </span>Us</h2>
+<div style="float: left;">
+<ul id="contact_us">
+<li><a class="underline" href="/cs/comment/">Online Comment Form</a></li>
+<li><span>(215) 580-7800 Phone</span></li>
+<li><span class="last">(215) 580-7853 TDD/TTY</span></li>
+</ul>
+<p id="address">1234 Market Street | Philadelphia PA 19107</p>
+<p id="copyright"><a href="/site/copyright.html">Copyright SEPTA | All rights Reserved</a></p>
+</div>
+<div style="float: right;">
+<div align="right" id="google_translate_element"></div>
+<script>
+			function googleTranslateElementInit() {
+			  new google.translate.TranslateElement({
+			    pageLanguage: 'en',
+			    gaTrack: true,
+			    gaId: 'UA-10756839-1'
+			  }, 'google_translate_element');
+			}
+		       </script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+<div style="clear: both;"></div><!-- new row -->
+</div>
+<script type="text/javascript"><xsl:comment>
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </xsl:comment></script>
+<script type="text/javascript"><xsl:comment>
+  try {
+  var pageTracker = _gat._getTracker("UA-10756839-1");
+  pageTracker._setDomainName(".septa.org");
+  pageTracker._trackPageview();
+  
+  } catch(err) {}</xsl:comment></script>
+
+<script language="JavaScript" src="/site/js/DD_roundies.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript" src="/site/js/ui.datepicker.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript" src="/site/js/ui.core.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript" src="/site/js/ui.tabs.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript" src="/site/js/cycle.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript" src="/site/js/init.js"><xsl:comment></xsl:comment></script>
+<script language="JavaScript">
+<xsl:comment>
+	$(function() {
+		$("#datepicker").datepicker();
+		$("#ui-datepicker-div").addClass("round_all");
+		$(".ui-datepicker-header").addClass("round_top");
+	});
+</xsl:comment>
+</script>
+

@@ -272,23 +272,14 @@ var _septa = (function(){
 			add_all_stops: function() {
 				_stops_layer = new L.LayerGroup();
                 _stops_layer.clearLayers();
-				var _icon = L.Icon.extend({
-    				options: {
-    					iconSize: [25, 41],
-                        shadowSize: [41, 41],
-                        iconAnchor: [12.5, 41],
-                        shadowAnchor: [12.5, 41],
-                        popupAnchor: [0, -33],
-    					shadowUrl: 'icons/marker-shadow.png',
-    					shadowRetinaUrl: 'icons/marker-shadow@2x.png',
-    					shadowSize: [41, 41]
-    				}
-				}), 
-				_bus_stop_icon = new _icon({iconUrl: 'icons/bus_stop.png', iconRetinaUrl: 'icons/bus_stop@2x.png'});
 				for (i in _all_stops) {
-					var _marker = L.marker([_all_stops[i].lat, _all_stops[i].lng], {icon: _bus_stop_icon});
-                    _stops_layer.addLayer(_marker);
-					_marker.bindPopup(_all_stops[i].stopname)
+					var _circle = L.circle([_all_stops[i].lat, _all_stops[i].lng], 12, {
+    					color: '#c9302c',
+    					fillColor: '#d9534f',
+    					fillOpacity: 0.85
+					});
+                    _stops_layer.addLayer(_circle);
+					_circle.bindPopup(_all_stops[i].stopname)
 				}
 				_stops_layer.addTo(_map);
 			},

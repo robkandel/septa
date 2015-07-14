@@ -182,6 +182,10 @@ hgroup {
     display:none;
 }
 
+.preloaderWrapper {
+    display:block;
+}
+
 
 .preloaderSpinnerWrapper {
     position: relative;

@@ -2,7 +2,7 @@
 // ROB KANDEL  										||
 // kandelrob@gmail.com								||
 // 													||
-// created 07.09.15	| updated 07.13.15				||
+// created 07.09.15	| updated 07.14.15				||
 // app.js											||
 // version 0.0.1									||
 ////////////////////////////////////////////////////||
@@ -23,21 +23,48 @@ var _septa = (function(){
 					}
 				}
 				if(jQuery(this).hasClass('menuWrapperActive')){
-					jQuery(this).removeClass('menuWrapperActive');
-					jQuery('.preloaderWrapper').hide();
-					jQuery('.searchWrapper').hide();
+					if (_current_route != null) {
+						jQuery(this).removeClass('menuWrapperActive');
+						jQuery('.preloaderWrapper').hide();
+						jQuery('.searchWrapper').hide();
+					}
 				} else {
 					jQuery(this).addClass('menuWrapperActive');
 					jQuery('.preloaderWrapper').hide();
 					jQuery('.searchWrapper').show();
 				}
 			});
+			if (method.url_anchor('route') == '') {
+				jQuery('.preloaderWrapper').hide();
+				jQuery('.searchWrapper').show();
+			} else {
+				jQuery('#route_name').val(method.url_anchor('route'))
+				method.get_data.find_route_type(jQuery('#route_name').val(), false);
+			}
 			method.pick_location();
 			method.map.start_map();
 		},
+		url_parameter: function(search){
+			var _page_url = decodeURI(window.location.search.substring(1));
+			var _url_variables = _page_url.split('&');
+			for (var i = 0; i < _url_variables.length; i++) {
+				if (search == _url_variables[i].split('=')[0]) {
+					return _url_variables[i].split('=')[1]
+				}
+			}
+			return ''
+		},
+		url_anchor: function(search){
+			var _url = window.location.href;
+			var _anchor = _url.indexOf("#");
+			return _anchor != -1 ? _url.substring(_anchor+1).split(search+'=')[1] : "";		
+		},
+		update_anchor_tag: function(current_route){
+			var _url = window.location.href;
+			var _anchor = _url.indexOf("#");
+			window.location.hash = (current_route != null) ? ('#route='+ current_route) : '';
+		},
 		pick_location: function(){
-			jQuery('.preloaderWrapper').hide();
-			jQuery('.searchWrapper').show();
 			jQuery('#search_type_route').on('click', function(){
 				jQuery('#search_holder_route').slideDown(150);
 				jQuery('#search_holder_find').slideUp(150);
@@ -62,7 +89,7 @@ var _septa = (function(){
 				}
 			});
 			jQuery('#route_search').on('click', function(){
-				method.get_data.find_route_type(jQuery('#route_name').val())
+				method.get_data.find_route_type(jQuery('#route_name').val(), true);
 			});
 			jQuery('.showRouteButton').on('click', function(){
 				jQuery('.showRouteTypes').slideDown(150);
@@ -85,6 +112,7 @@ var _septa = (function(){
 			jQuery('.myLocationButton').on('click', function(){
 				jQuery('.preloaderWrapper').show();
 				jQuery('.searchWrapper').hide();
+				jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 				if (navigator.geolocation) {
         			navigator.geolocation.getCurrentPosition(_septa.return_coords);
     			} else { 
@@ -103,7 +131,9 @@ var _septa = (function(){
 				}
 			});
 			jQuery('#geocode_search').on('click', function(){
-				method.geocode.google(jQuery('#geocode_input').val())
+				if(jQuery('#geocode_input').val().length >= 1){
+					method.geocode.google(jQuery('#geocode_input').val())
+				}
 			});
 		},
 		return_coords: function(pos){
@@ -189,7 +219,8 @@ var _septa = (function(){
 				_nw_layer.addTo(_map);
 				if (type == 'bus' || type == 'trolley') {
 					_se_layer.addTo(_map);
-				} else {
+					_map.options.maxZoom = 19;
+				} else if (type == 'train'){
 					_map.options.maxZoom = 13;
 				}
 				setTimeout(function() {
@@ -201,6 +232,7 @@ var _septa = (function(){
 					} else {
 						alert('Sorry, no results found')
 					}
+					jQuery('.ui-autocomplete').hide();
 				}, 100);
 				jQuery('.preloaderWrapper').hide();
 			},
@@ -314,6 +346,7 @@ var _septa = (function(){
 						_marker_list.push(_marker);
 					}
 				}
+				_map.options.maxZoom = 19;
 				_nw_layer.addTo(_map);
 				setTimeout(function() {_map.panTo(_map.fitBounds(_fullBounds).getCenter())}, 100);
 				jQuery('.preloaderWrapper').hide();
@@ -346,16 +379,19 @@ var _septa = (function(){
 					_marker_list=[]
 					_current_route = '';
 					_legend = '';
+					_reset_pan = false;
 				}
 			}
 		},
 		get_data: {
-			find_route_type: function(val){
+			find_route_type: function(val, bool){
+				jQuery('.ui-autocomplete').hide();
 				if (jQuery.inArray(val.toLowerCase(), _rail_routes) != -1) {
 					method.map.clear_all();
 					jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 					_current_route = val;
 					_reset_pan = true;
+					method.update_anchor_tag(_current_route);
 					method.get_data.get_rail_line();
 					method.get_data.get_rail_data();
 				} else if (jQuery.inArray(val.toLowerCase(), _bus_routes) != -1 || jQuery.inArray(val.toLowerCase(), _trolley_routes) != -1){
@@ -363,17 +399,26 @@ var _septa = (function(){
 					jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 					_current_route = val;
 					_reset_pan = true;
+					method.update_anchor_tag(_current_route);
 					method.get_data.get_bus_line(((jQuery.inArray(val.toLowerCase(), _bus_routes) != -1) ? 'bus' : 'trolley'));
 					method.get_data.get_bus_data(((jQuery.inArray(val.toLowerCase(), _bus_routes) != -1) ? 'bus' : 'trolley'));
 				} else {
-					alert("Sorry, that route doesn't exist");
-					_current_route = null;
+					_reset_pan = false;
+					if (bool) {
+						alert("Sorry, that route doesn't exist");
+						_current_route = null;
+						method.update_anchor_tag(_current_route);
+					} else {
+						jQuery('.preloaderWrapper').hide();
+						jQuery('.searchWrapper').show();
+						method.update_anchor_tag(null);
+					}
 				}
 			},
 			get_bus_data: function(type) {
 				jQuery('.preloaderWrapper').show();
 				jQuery('.searchWrapper').hide();
-				jQuery('.ui-autocomplete').hide();
+				jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 				var _dt = ((new Date).getTime());
 				jQuery.ajax({
 					url:"http://www3.septa.org/hackathon/TransitView/?route="+_current_route+"&ts="+_dt+"&callback=?",
@@ -424,7 +469,7 @@ var _septa = (function(){
 			get_rail_data: function() {
 				jQuery('.preloaderWrapper').show();
 				jQuery('.searchWrapper').hide();
-				jQuery('.ui-autocomplete').hide();
+				jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 				var _dt = ((new Date).getTime());
 				jQuery.ajax({
 					url:"http://www3.septa.org/hackathon/TrainView/?dm="+_current_route+"&ts="+_dt+"&callback=?",
@@ -461,7 +506,9 @@ var _septa = (function(){
 			find_stations: function(lat, lng) {
 				jQuery('.preloaderWrapper').show();
 				jQuery('.searchWrapper').hide();
-				jQuery('.ui-autocomplete').hide();
+				jQuery('#menu_wrapper').removeClass('menuWrapperActive');
+				method.map.clear_all();
+				method.update_anchor_tag(null);
 				var _dt = ((new Date).getTime());
 				jQuery.ajax({
 					url: "http://www3.septa.org/hackathon/locations/get_locations.php?lon="+lng+"&lat="+lat+"&callback=?&radius=3",
@@ -488,6 +535,7 @@ var _septa = (function(){
 			google: function(address) {
 				jQuery('.preloaderWrapper').show();
 				jQuery('.searchWrapper').hide();
+				jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 				if(!_geocode_source) {
 					var s = document.createElement("script");
                 	s.type = "text/javascript";

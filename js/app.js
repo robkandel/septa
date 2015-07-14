@@ -12,7 +12,7 @@ var _septa = (function(){
 	_rail_routes = ["airport","chestnut-h-east","chestnut-h-west","doylestown","elwyn","fox-chase","malvern","marcus-hook","norristown","paoli","temple-u","thorndale","trenton","warminster","west-trenton","wilmington"],
 	_trolley_routes = ["10","11","13","15","34","36","101","102"],
 	_all_stops = [],
-	_map, _marker_list=[],_stops_layer, _nw_layer, _se_layer, _bus_layer, _train_layer, _timer, _legend = '', _geocode_source = false, _current_route = null;
+	_map, _marker_list=[],_stops_layer, _nw_layer, _se_layer, _bus_layer, _train_layer, _timer, _legend = '', _geocode_source = false, _current_route = null, _reset_pan = false;
 	method = {
 		init: function(){
 			jQuery('#menu_wrapper').on('click', function(){
@@ -194,9 +194,12 @@ var _septa = (function(){
 				}
 				setTimeout(function() {
 					if (_marker_list.length > 0) {
-						_map.panTo(_map.fitBounds(_fullBounds).getCenter())
+						if (_reset_pan) {
+							_map.panTo(_map.fitBounds(_fullBounds).getCenter())
+							_reset_pan = false
+						}
 					} else {
-						//alert('Sorry, no results found')
+						alert('Sorry, no results found')
 					}
 				}, 100);
 				jQuery('.preloaderWrapper').hide();
@@ -352,12 +355,14 @@ var _septa = (function(){
 					method.map.clear_all();
 					jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 					_current_route = val;
+					_reset_pan = true;
 					method.get_data.get_rail_line();
 					method.get_data.get_rail_data();
 				} else if (jQuery.inArray(val.toLowerCase(), _bus_routes) != -1 || jQuery.inArray(val.toLowerCase(), _trolley_routes) != -1){
 					method.map.clear_all();
 					jQuery('#menu_wrapper').removeClass('menuWrapperActive');
 					_current_route = val;
+					_reset_pan = true;
 					method.get_data.get_bus_line(((jQuery.inArray(val.toLowerCase(), _bus_routes) != -1) ? 'bus' : 'trolley'));
 					method.get_data.get_bus_data(((jQuery.inArray(val.toLowerCase(), _bus_routes) != -1) ? 'bus' : 'trolley'));
 				} else {

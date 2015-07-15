@@ -187,7 +187,7 @@ hgroup {
 }
 
 
-.preloaderSpinnerWrapper {
+.preloaderSpinnerWrapper{
     position: relative;
     width: 15.71428571428571em;
     padding: 2.14285714285714em;
@@ -563,6 +563,102 @@ hgroup {
     z-index: 1;
 }
 
+.leaflet-control-container .arrivalLegend {
+    padding: 0.35714285714286em;
+}
+
+.arrivalLegendWrapper {
+    max-width: 280px;
+}
+
+.arrivalLegendBTN{
+    position: relative;
+    float: left;
+}
+
+.arrivalLegendBTN span {
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+.arrivalTitle {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    top: 4px;
+}
+
+.arrivalInfoWrapper {
+   display:none; 
+}
+
+.arrivalInfoWrapper .form-inline {
+    clear: both;
+    margin-top: 10px;
+    position: relative;
+}
+
+.arrivalInfoWrapper .form-inline .form-group {
+    margin-right: 5px;
+    max-width: 100px;
+}
+
+.arrivalInfoWrapper .form-inline .form-control {
+    width: 100%;
+}
+
+.arrivalInfoWrapper .form-inline ::-webkit-input-placeholder, .arrivalInfoWrapper .form-inline ::-moz-placeholder, .arrivalInfoWrapper .form-inline :-ms-input-placeholder {
+    position: relative;
+    text-align: center;
+}
+
+.arrivalTableWrapper {
+    max-height: 160px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 10px 0;
+    display:none;
+}
+
+.spinnerWrapper {
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    background-image: url('images/preloader.gif');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.leaflet-control-container .legend .arrivalTable tr td {
+    line-height: inherit;
+}
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#arrival_search {
+    top: -1em;
+    position: relative;
+}
+
+.leaflet-control-container .legend .arrivalTable tr:last-child td {
+    font-style: normal;
+}
+
+.badge-success{
+    background-color:#5cb85c;
+}
+
+.badge-danger{
+    background-color:#d9534f;
+}
+
+
 @media screen and (min-width:481px) {
     .logoText {
         position: relative;
@@ -582,4 +678,9 @@ hgroup {
     .searchTypeWrapper {
         margin: 0 1.42857142857143em 2.14285714285714em;
     }
+
+    #arrival_search {
+        top: 0em;
+    }
+
 }

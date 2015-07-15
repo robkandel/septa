@@ -602,7 +602,7 @@ hgroup {
 }
 
 .arrivalInfoWrapper .form-inline .form-group {
-    margin-right: 5px;
+    margin-right: 4px;
     max-width: 100px;
 }
 
@@ -641,11 +641,6 @@ hgroup {
     margin-bottom: 0;
 }
 
-#arrival_search {
-    top: -1em;
-    position: relative;
-}
-
 .leaflet-control-container .legend .arrivalTable tr:last-child td {
     font-style: normal;
 }
@@ -677,10 +672,6 @@ hgroup {
 
     .searchTypeWrapper {
         margin: 0 1.42857142857143em 2.14285714285714em;
-    }
-
-    #arrival_search {
-        top: 0em;
     }
 
 }

@@ -270,7 +270,7 @@ var _septa = (function(){
 				}).addTo(_map);
 				_all_stops = [];
 				if (typeof(_legend) == 'object') {
-					_map.removeLayer(_legend);
+					_map.removeControl(_legend);
 				}
 				_legend = L.control({position: 'topright'});
 				_legend.onAdd = function (_map) {
@@ -321,7 +321,7 @@ var _septa = (function(){
                     }
 				}).addTo(_map);
 				if (typeof(_legend) == 'object') {
-					_map.removeLayer(_legend);
+					_map.removeControl(_legend);
 				}
 				_legend = L.control({position: 'topleft'});
 				_legend.onAdd = function (_map) {
@@ -429,7 +429,7 @@ var _septa = (function(){
 						method.map.remove_layer(_stops_layer);
 					}
 					if (typeof(_legend) == 'object') {
-						_map.removeLayer(_legend);
+						_map.removeControl(_legend);
 					}
 					_all_stops = [];
 					_marker_list=[]

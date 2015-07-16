@@ -2,9 +2,9 @@
 // ROB KANDEL  										||
 // kandelrob@gmail.com								||
 // 													||
-// created 07.09.15	| updated 07.14.15				||
+// created 07.09.15	| updated 07.16.15				||
 // app.js											||
-// version 0.0.1									||
+// version 0.0.4									||
 ////////////////////////////////////////////////////||
 var _septa = (function(){
 	var _all_routes = [{value:"1",label: "1"}, {value:"2",label: "2"}, {value:"3",label: "3"}, {value:"4",label: "4"}, {value:"5",label: "5"}, {value:"6",label: "6"}, {value:"7",label: "7"}, {value:"8",label: "8"}, {value:"9",label: "9"}, {value:"12",label: "12"}, {value:"14",label: "14"}, {value:"17",label: "17"}, {value:"18",label: "18"}, {value:"19",label: "19"}, {value:"20",label: "20"}, {value:"21",label: "21"}, {value:"22",label: "22"}, {value:"23",label: "23"}, {value:"24",label: "24"}, {value:"25",label: "25"}, {value:"26",label: "26"}, {value:"27",label: "27"}, {value:"28",label: "28"}, {value:"29",label: "29"}, {value:"30",label: "30"}, {value:"31",label: "31"}, {value:"32",label: "32"}, {value:"33",label: "33"}, {value:"35",label: "35"}, {value:"37",label: "37"}, {value:"38",label: "38"}, {value:"39",label: "39"}, {value:"40",label: "40"}, {value:"42",label: "42"}, {value:"43",label: "43"}, {value:"44",label: "44"}, {value:"46",label: "46"}, {value:"47",label: "47"}, {value:"48",label: "48"}, {value:"50",label: "50"}, {value:"52",label: "52"}, {value:"53",label: "53"}, {value:"54",label: "54"}, {value:"55",label: "55"}, {value:"56",label: "56"}, {value:"57",label: "57"}, {value:"58",label: "58"}, {value:"59",label: "59"}, {value:"60",label: "60"}, {value:"61",label: "61"}, {value:"62",label: "62"}, {value:"64",label: "64"}, {value:"65",label: "65"}, {value:"66",label: "66"}, {value:"67",label: "67"}, {value:"68",label: "68"}, {value:"70",label: "70"}, {value:"73",label: "73"}, {value:"75",label: "75"}, {value:"77",label: "77"}, {value:"78",label: "78"}, {value:"79",label: "79"}, {value:"80",label: "80"}, {value:"84",label: "84"}, {value:"88",label: "88"}, {value:"89",label: "89"}, {value:"C",label: "C"}, {value:"G",label: "G"}, {value:"HXH",label: "HXH"}, {value:"J",label: "J"}, {value:"K",label: "K"}, {value:"L",label: "L"}, {value:"R",label: "R"}, {value:"LUCY",label: "LUCY"}, {value:"90",label: "90"}, {value:"91",label: "91"}, {value:"92",label: "92"}, {value:"93",label: "93"}, {value:"94",label: "94"}, {value:"95",label: "95"}, {value:"96",label: "96"}, {value:"97",label: "97"}, {value:"98",label: "98"}, {value:"99",label: "99"}, {value:"103",label: "103"}, {value:"104",label: "104"}, {value:"105",label: "105"}, {value:"106",label: "106"}, {value:"107",label: "107"}, {value:"108",label: "108"}, {value:"109",label: "109"}, {value:"110",label: "110"}, {value:"111",label: "111"}, {value:"112",label: "112"}, {value:"113",label: "113"}, {value:"114",label: "114"}, {value:"115",label: "115"}, {value:"116",label: "116"}, {value:"117",label: "117"}, {value:"118",label: "118"}, {value:"119",label: "119"}, {value:"120",label: "120"}, {value:"123",label: "123"}, {value:"124",label: "124"}, {value:"125",label: "125"}, {value:"126",label: "126"}, {value:"127",label: "127"}, {value:"128",label: "128"}, {value:"129",label: "129"}, {value:"130",label: "130"}, {value:"131",label: "131"}, {value:"132",label: "132"}, {value:"133",label: "133"}, {value:"134",label: "134"}, {value:"139",label: "139"}, {value:"150",label: "150"}, {value:"201",label: "201"}, {value:"204",label: "204"}, {value:"205",label: "205"}, {value:"206",label: "206"}, {value:"310",label: "310"}, {value:"airport",label: "Airport"}, {value:"chestnut-h-east",label: "Chestnut Hill East"}, {value:"chestnut-h-west",label: "chestnut Hill West"}, {value:"doylestown",label: "Doylestown"}, {value:"elwyn",label: "Elwyn"}, {value:"fox-chase",label: "Fox Chase"}, {value:"malvern",label: "Malvern"}, {value:"marcus-hook",label: "Marcus Hook"}, {value:"norristown",label: "Norristown"}, {value:"paoli",label: "Paoli"}, {value:"temple-u",label: "Temple U"}, {value:"thorndale",label: "Thorndale"}, {value:"trenton",label: "Trenton"}, {value:"warminster",label: "Warminster"}, {value:"west-trenton",label: "West Trenton"}, {value:"wilmington",label: "Wilmington"}, {value:"10",label: "10"}, {value:"11",label: "11"}, {value:"13",label: "13"}, {value:"15",label: "15"}, {value:"34",label: "34"}, {value:"36",label: "36"}, {value:"101",label: "101"}, {value:"102",label: "102"}],
@@ -327,9 +327,10 @@ var _septa = (function(){
 				_legend.onAdd = function (_map) {
     				var div = L.DomUtil.create('div', 'info legend arrivalLegend');
         			div.innerHTML += '<div class="arrivalLegendWrapper"><div class="arrivalLegendBTN buttonItem transitionAll"><span><i class="fa fa-calendar"></i></span></div><div class="arrivalInfoWrapper transitionAll"><div class="arrivalTitle transitionAll">Arrival Schedule</div><form class="form-inline"><div class="form-group"><input type="text" class="form-control" id="next_arrival_start" placeholder="Origin"></div><div class="form-group"><input type="text" class="form-control" id="next_arrival_end" placeholder="Destination"></div><button id="arrival_search" class="btn btn-primary transitionAll" type="button">Search</button></form><div class="arrivalTableWrapper"><div class="spinnerWrapper"></div><table class="table arrivalTable"></table></div></div></div>';
+        			L.DomEvent.disableClickPropagation(div);
     				return div;
 				};
-				_legend.addTo(_map);
+				_legend.addTo(_map);				
 				jQuery('.arrivalLegendBTN').unbind('click');
 				jQuery('.arrivalLegendBTN').on('click', function(){
 					method.map.train_schedule();
@@ -559,7 +560,7 @@ var _septa = (function(){
 						method.map.add_train_lines(toGeoJSON.kml(jQuery.parseXML(d)));
 					},
 					error: function() {
-						alert('Sorry, something went wrong')
+						alert('Sorry, something went wrong');
 					}
 				});
 			},
@@ -591,7 +592,7 @@ var _septa = (function(){
   						jQuery('.spinnerWrapper').slideUp(150);
   						jQuery('.arrivalTable').slideDown(150);
   						if (d.length == 0){
-  							jQuery('.arrivalTable').html('No Results Found');
+  							jQuery('.arrivalTable').html('<tr style="position: relative; text-align: center;"><td style="font-weight: 700; color: #d9534f">No Results Found</td></tr>');
   						} else {
   							jQuery('.arrivalTable').html('<tr><th>Line</th><th>Departure</th><th>Arrival</th><th>Late</th></tr>');
     						for (var i in d) {

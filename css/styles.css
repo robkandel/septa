@@ -297,43 +297,6 @@ hgroup {
     text-align: center;
 }
 
-/*.gridGroup {
-    display:none;
-}
-
-.gridGroupActive {
-    display:block;
-}
-
-.gridCell {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    color: #337ab7;
-    display: inline-block;
-    font-size: 1.2em;
-    font-weight: 700;
-    height: 30px;
-    letter-spacing: -1px;
-    line-height: 27px;
-    margin-bottom: 0.5em;
-    text-align: center;
-    width: 18.9%;
-}
-
-.gridCell:hover {
-    color:#23527c;
-    background-color:#eee;
-}
-
-.paginationWrapper {
-    border-top: 1px solid #ccc;
-}
-
-.paginationWrapper .pagination {
-    margin: 0.71428571428571em 0 0;
-}*/
-
 .preloaderSpinner {
     position: relative;
     width: 2.5em;
@@ -567,6 +530,10 @@ hgroup {
     padding: 0.35714285714286em;
 }
 
+.leaflet-touch .leaflet-control-container .arrivalLegend {
+    padding: 0.71428571428572em;   
+}
+
 .arrivalLegendWrapper {
     max-width: 280px;
 }
@@ -662,6 +629,11 @@ hgroup {
     background-color:#d9534f;
 }
 
+.leaflet-touch #arrival_search {
+    position: relative;
+    top: -2px;
+}
+
 
 @media screen and (min-width:481px) {
     .logoText {
@@ -681,6 +653,10 @@ hgroup {
 
     .searchTypeWrapper {
         margin: 0 1.42857142857143em 2.14285714285714em;
+    }
+
+    .leaflet-touch #arrival_search {
+        top: 0px;
     }
 
 }

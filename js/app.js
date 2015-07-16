@@ -425,7 +425,7 @@ var _septa = (function(){
 					if (typeof(_train_layer) == 'object') {
 						method.map.remove_layer(_train_layer);
 					}
-					if (typeof(_stop_layer) == 'object') {
+					if (typeof(_stops_layer) == 'object') {
 						method.map.remove_layer(_stops_layer);
 					}
 					if (typeof(_legend) == 'object') {

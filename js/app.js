@@ -586,7 +586,7 @@ var _septa = (function(){
 				jQuery('.arrivalTableWrapper').show();
 				jQuery('.arrivalTable').empty();
 				jQuery.ajax({
-					url: "http://www3.septa.org/hackathon/NextToArrive/?req1="+origin+"&req2="+destination+"&req3=5&callback=?",
+					url: "http://www3.septa.org/hackathon/NextToArrive/?req1="+method.parse_data.capitalize_first_letter(origin)+"&req2="+method.parse_data.capitalize_first_letter(destination)+"&req3=5&callback=?",
 					dataType: "json",
   					success: function(d){
   						jQuery('.spinnerWrapper').slideUp(150);
@@ -615,6 +615,11 @@ var _septa = (function(){
 					return 'Less than 1 min ago';
 				}
 				return _min + ' min ' + (Math.round(Math.floor(100 * (((num / 60) % 1) * 60)) / 100)).toString() + ' sec ago'
+			},
+			capitalize_first_letter: function(str) {
+				return str.toLowerCase().replace( /\b\w/g, function (m) {
+                	return m.toUpperCase();
+            	});
 			}
 		},
 		geocode: {

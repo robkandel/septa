@@ -38,7 +38,8 @@ var _septa = (function(){
 				jQuery('.preloaderWrapper').hide();
 				jQuery('.searchWrapper').show();
 			} else {
-				jQuery('#route_name').val(method.url_anchor('route'))
+				jQuery('#route_name').val(method.url_anchor('route'));
+				_reset_pan = true;
 				method.get_data.find_route_type(jQuery('#route_name').val(), false);
 			}
 			method.pick_location();
@@ -94,7 +95,7 @@ var _septa = (function(){
 				(jQuery('#route_name').val().length >= 1) ? jQuery('#route_search').find('button').prop('disabled', false) : jQuery('#route_search').find('button').prop('disabled', true);
 			}).on('keydown', function(e){
 				if (e.keyCode == 13) {
-					if(jQuery('#route_name').val().length >= 1){
+					if(jQuery('#route_name').val().length >= 1 && jQuery('#route_name').val() != _current_route){
 						jQuery('#route_search').click()
 					}
 				}
@@ -102,6 +103,7 @@ var _septa = (function(){
             	jQuery(this).trigger('keydown.autocomplete');
         	});
 			jQuery('#route_search').on('click', function(){
+				_reset_pan = true;
 				method.get_data.find_route_type(jQuery('#route_name').val(), true);
 			});
 			jQuery('.showRouteButton').on('click', function(){

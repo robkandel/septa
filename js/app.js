@@ -338,9 +338,6 @@ var _septa = (function(){
 				jQuery('#arrival_search').on('click', function(){
 					if (jQuery('#next_arrival_start').val() != '' && jQuery('#next_arrival_end').val() != '') {
 						method.get_data.arrival_times(jQuery('#next_arrival_start').val(), jQuery('#next_arrival_end').val());
-						if (Modernizr.touch) {
-							_map.dragging.enable();
-						}
 					} else {
 						(jQuery('#next_arrival_start').val() != '') ? alert('Enter Origin') : alert('Enter Destination');
 					}
@@ -406,14 +403,8 @@ var _septa = (function(){
 			train_schedule: function(){
 				if (jQuery('.arrivalInfoWrapper').hasClass('arrivalInfoWrapperActive')) {
 					jQuery('.arrivalInfoWrapper').removeClass('arrivalInfoWrapperActive').slideUp(150);
-					if (Modernizr.touch) {
-						_map.dragging.enable();
-					}
 				} else {
 					jQuery('.arrivalInfoWrapper').addClass('arrivalInfoWrapperActive').slideDown(150);
-					if (Modernizr.touch) {
-						_map.dragging.disable();
-					}
 				}
 			},
 			remove_layer: function(_layer) {

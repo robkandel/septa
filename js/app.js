@@ -243,7 +243,9 @@ var _septa = (function(){
 							_reset_pan = false
 						}
 					} else {
-						alert('Sorry, no results found')
+						alert('Sorry, no results found');
+						jQuery('.preloaderWrapper').hide();
+						jQuery('.searchWrapper').show();
 					}
 					jQuery('.ui-autocomplete').hide();
 				}, 100);

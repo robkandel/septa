@@ -402,9 +402,9 @@ var _septa = (function(){
 			},
 			train_schedule: function(){
 				if (jQuery('.arrivalInfoWrapper').hasClass('arrivalInfoWrapperActive')) {
-					jQuery('.arrivalInfoWrapper').removeClass('arrivalInfoWrapperActive').slideUp(150);
+					jQuery('.arrivalInfoWrapper').removeClass('arrivalInfoWrapperActive').slideUp();
 				} else {
-					jQuery('.arrivalInfoWrapper').addClass('arrivalInfoWrapperActive').slideDown(150);
+					jQuery('.arrivalInfoWrapper').addClass('arrivalInfoWrapperActive').slideDown();
 				}
 			},
 			remove_layer: function(_layer) {

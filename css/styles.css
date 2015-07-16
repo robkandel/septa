@@ -595,10 +595,19 @@ hgroup {
    display:none; 
 }
 
+.arrivalInfoWrapperActive {
+	display:block;
+}
+
 .arrivalInfoWrapper .form-inline {
     clear: both;
     margin-top: 10px;
     position: relative;
+    display:none;
+}
+
+.arrivalInfoWrapperActive .form-inline {
+	display:block;
 }
 
 .arrivalInfoWrapper .form-inline .form-group {

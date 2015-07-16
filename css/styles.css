@@ -625,7 +625,7 @@ hgroup {
 }
 
 .arrivalTableWrapper {
-    max-height: 160px;
+    max-height: 170px;
     overflow-x: auto;
     overflow-y: auto;
     margin: 10px 0;

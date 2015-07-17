@@ -40,6 +40,7 @@ var _septa = (function(){
 			} else {
 				jQuery('#route_name').val(method.url_anchor('route'));
 				_reset_pan = true;
+				jQuery('#route_search').find('button').prop('disabled', false);
 				method.get_data.find_route_type(jQuery('#route_name').val(), false);
 			}
 			method.pick_location();

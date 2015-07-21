@@ -383,6 +383,14 @@ hgroup {
     font-size: 12px;
 }
 
+#ui-id-2, #ui-id-3 {
+    width: 204px !important;
+} 
+
+#ui-id-3{
+    left: 20px !important;
+}
+
 .owl-theme .owl-controls .owl-page span {
     margin: 5px 2px;
     background-color:#337ab7;
@@ -647,7 +655,7 @@ hgroup {
         width: 24em;
     }
     .inputWrapper {
-       position: relative;
+        position: relative;
         margin: 2.84285714285714em 1.42857142857143em 0;
     }
 
@@ -657,6 +665,10 @@ hgroup {
 
     .leaflet-touch #arrival_search {
         top: 0px;
+    }
+
+    #ui-id-3{
+       left: 20px !important;
     }
 
 }
